@@ -4,19 +4,19 @@ Prometheus is a WDC 65816 based SingleBoardComputer aimed to be a fully usable s
 
 System specification:
 
-CPU: WDC 65816 at 8MHz
-ROM: 8kB Firmware boot EPROM
-RAM: Up to 16MB of RAM via 30pin SIMM
-Video: Custom graphics chip "GRACE"
-Audio: Ensoniq EN5503 DOC
-I/O: 
+* CPU: WDC 65816 at 8MHz
+* ROM: 8kB Firmware boot EPROM
+* RAM: Up to 16MB of RAM via 30pin SIMM
+* Video: Custom graphics chip "GRACE"
+* Audio: Ensoniq EN5503 DOC
+* I/O: 
   - RS232 serial port
   - Centronics port
   - 2x Atari "standard" joystick ports
   - ps/2 keyboard port
   - IDE massstorage interface
   - Standard floppydrive interface
-Other: Realtime clock
+* Other: Realtime clock
 
 The graphics is implemented with a additional FPGA board that connects via the two 40pin connectors. System controller 
 is a CPLD that ties in the system, igenerates the chip selects and various control signals and contains a DRAM controller.
