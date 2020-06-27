@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIMM16M
+D Barrette SIMM 1 Mo ( 1M x 9 bits)
+K DRAM 1MO
+$ENDCMP
+#
+#End Doc Library

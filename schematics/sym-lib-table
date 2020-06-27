@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 65xx)(type Legacy)(uri ${KIPRJMOD}/65xx.lib)(options "")(descr ""))
+  (lib (name prometh_custom)(type Legacy)(uri ${KIPRJMOD}/prometh_custom.lib)(options "")(descr ""))
+  (lib (name simm16m)(type Legacy)(uri ${KIPRJMOD}/simm16m.lib)(options "")(descr ""))
+  (lib (name KISS68030-cache)(type Legacy)(uri /Users/janik/Downloads/kiss68030-kicad-006/KISS68030-cache.lib)(options "")(descr ""))
+  (lib (name Prometheus-rescue)(type Legacy)(uri ${KIPRJMOD}/Prometheus-rescue.lib)(options "")(descr ""))
+)
