@@ -220,7 +220,7 @@ NoConn ~ 1200 2300
 NoConn ~ 1200 2200
 NoConn ~ 1200 2100
 NoConn ~ 1200 1600
-NoConn ~ 1650 1500
+NoConn ~ 1700 1500
 Wire Wire Line
 	4650 1200 4650 2750
 Connection ~ 4500 2750
@@ -696,6 +696,9 @@ Wire Wire Line
 	1800 1400 1800 1200
 Wire Wire Line
 	1800 1200 1100 1200
+Connection ~ 1100 1200
+Wire Wire Line
+	1100 1200 1100 1400
 Wire Bus Line
 	3250 3150 3250 3400
 Wire Bus Line
@@ -708,7 +711,4 @@ Wire Bus Line
 	1100 3150 1100 4450
 Wire Bus Line
 	3250 3400 3250 4500
-Connection ~ 1100 1200
-Wire Wire Line
-	1100 1200 1100 1400
 $EndSCHEMATC
