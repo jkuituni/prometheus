@@ -162,7 +162,7 @@ F2 "A[0..15]" I L 1050 5650 50
 F3 "D[0..7]" B L 1050 5800 50 
 $EndSheet
 $Sheet
-S 2400 5450 500  150 
+S 2350 5450 650  600 
 U 5F475375
 F0 "I/O 1" 50
 F1 "io-1.sch" 50
@@ -687,9 +687,9 @@ Wire Bus Line
 	5100 3150 5200 3150
 Wire Bus Line
 	3700 3150 3600 3150
-Text GLabel 5200 3150 2    50   Input ~ 0
+Text GLabel 3600 3150 0    50   Input ~ 0
 A[0..23]
-Text GLabel 3600 3150 0    50   BiDi ~ 0
+Text GLabel 5200 3150 2    50   BiDi ~ 0
 D[0..7]
 Wire Wire Line
 	4850 2150 5050 2150
@@ -777,6 +777,32 @@ Wire Wire Line
 Connection ~ 2000 2700
 Wire Wire Line
 	2000 2700 2000 2750
+Text Label 3950 3150 0    50   ~ 0
+D0
+Text Label 3950 3250 0    50   ~ 0
+D1
+Text Label 3950 3350 0    50   ~ 0
+D2
+Text Label 3950 2650 0    50   ~ 0
+A4
+Text Label 3950 2750 0    50   ~ 0
+A3
+Text Label 3950 2850 0    50   ~ 0
+A2
+Text Label 3950 2950 0    50   ~ 0
+A1
+Text Label 3950 3050 0    50   ~ 0
+A0
+Text Label 4900 3450 0    50   ~ 0
+D3
+Text Label 4900 3350 0    50   ~ 0
+D4
+Text Label 4900 3250 0    50   ~ 0
+D5
+Text Label 4900 3150 0    50   ~ 0
+D6
+Text Label 4900 3050 0    50   ~ 0
+D7
 Wire Bus Line
 	3850 3250 3850 3600
 Wire Bus Line

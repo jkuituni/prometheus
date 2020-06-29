@@ -91,56 +91,52 @@ Wire Wire Line
 	4050 6650 4050 6550
 Connection ~ 4150 6650
 Entry Wire Line
-	5350 2050 5450 1950
+	5500 2050 5600 1950
 Entry Wire Line
-	5350 2150 5450 2050
+	5500 2150 5600 2050
 Entry Wire Line
-	5350 2250 5450 2150
+	5500 2250 5600 2150
 Entry Wire Line
-	5350 2350 5450 2250
+	5500 2350 5600 2250
 Entry Wire Line
-	5350 2450 5450 2350
+	5500 2450 5600 2350
 Entry Wire Line
-	5350 2550 5450 2450
+	5500 2550 5600 2450
 Entry Wire Line
-	5350 2650 5450 2550
+	5500 2650 5600 2550
 Entry Wire Line
-	5350 2750 5450 2650
+	5500 2750 5600 2650
 Entry Wire Line
-	5350 2850 5450 2750
+	5500 2850 5600 2750
 Entry Wire Line
-	5350 2950 5450 2850
+	5500 2950 5600 2850
 Entry Wire Line
-	5350 3050 5450 2950
+	5500 3050 5600 2950
 Entry Wire Line
-	5350 3150 5450 3050
+	5500 3150 5600 3050
 Entry Wire Line
-	5350 3250 5450 3150
+	5500 3250 5600 3150
 Entry Wire Line
-	5350 3350 5450 3250
+	5500 3350 5600 3250
 Entry Wire Line
-	5350 3450 5450 3350
+	5500 3450 5600 3350
 Entry Wire Line
-	5350 3550 5450 3450
-Text Label 5450 1350 0    50   ~ 10
-A[0..15]
-Text GLabel 5450 1600 2    50   Input ~ 10
-A[0..15]
-Text GLabel 2450 2050 0    50   Input ~ 10
+	5500 3550 5600 3450
+Text GLabel 2450 2050 0    50   Output ~ 10
 RTC_EN
-Text GLabel 2450 2200 0    50   Input ~ 10
+Text GLabel 2450 2200 0    50   Output ~ 10
 VIA1_EN
 Wire Wire Line
 	3350 2150 3050 2150
 Wire Wire Line
 	3050 2150 3050 2200
-Text GLabel 2450 2350 0    50   Input ~ 10
+Text GLabel 2450 2350 0    50   Output ~ 10
 VIA2_EN
 Wire Wire Line
 	3350 2250 3100 2250
 Wire Wire Line
 	3100 2250 3100 2350
-Text GLabel 2450 2500 0    50   Input ~ 10
+Text GLabel 2450 2500 0    50   Output ~ 10
 ROM_EN
 Wire Wire Line
 	3350 2350 3150 2350
@@ -148,13 +144,13 @@ Wire Wire Line
 	3150 2350 3150 2400
 Wire Wire Line
 	2600 2500 2450 2500
-Text GLabel 2450 2650 0    50   Input ~ 10
+Text GLabel 2450 2650 0    50   Output ~ 10
 RAM_EN
 Wire Wire Line
 	2650 2650 2450 2650
-Text GLabel 2450 2800 0    50   Input ~ 10
+Text GLabel 2450 2800 0    50   Output ~ 10
 UART_EN
-Text GLabel 2400 2950 0    50   Input ~ 10
+Text GLabel 2400 2950 0    50   Output ~ 10
 GRACE_EN
 Wire Wire Line
 	2450 2050 3350 2050
@@ -182,7 +178,7 @@ Wire Wire Line
 	2750 2650 3350 2650
 Wire Wire Line
 	2400 2950 2750 2950
-Text GLabel 2350 3100 0    50   Input ~ 10
+Text GLabel 2350 3100 0    50   Output ~ 10
 CAS
 Wire Wire Line
 	3350 2950 2800 2950
@@ -190,7 +186,7 @@ Wire Wire Line
 	2800 2950 2800 3100
 Wire Wire Line
 	2800 3100 2350 3100
-Text GLabel 2350 3250 0    50   Input ~ 10
+Text GLabel 2350 3250 0    50   Output ~ 10
 RAS
 Wire Wire Line
 	3350 3150 2500 3150
@@ -198,7 +194,7 @@ Wire Wire Line
 	2500 3150 2500 3250
 Wire Wire Line
 	2500 3250 2350 3250
-Text GLabel 2350 3400 0    50   Input ~ 10
+Text GLabel 2350 3400 0    50   Output ~ 10
 AUDIO_EN
 Wire Wire Line
 	3350 3250 2550 3250
@@ -241,8 +237,6 @@ Wire Wire Line
 	5950 6000 5950 6050
 Wire Wire Line
 	5950 6050 5350 6050
-Text GLabel 5400 750  2    50   Input ~ 10
-Vcc33
 Wire Wire Line
 	4650 750  5400 750 
 Wire Wire Line
@@ -315,34 +309,30 @@ Wire Wire Line
 Wire Wire Line
 	6950 5400 5800 5400
 Entry Wire Line
-	5350 3950 5450 3850
+	5500 3950 5600 3850
 Entry Wire Line
-	5350 4050 5450 3950
+	5500 4050 5600 3950
 Entry Wire Line
-	5350 4150 5450 4050
+	5500 4150 5600 4050
 Entry Wire Line
-	5350 4250 5450 4150
+	5500 4250 5600 4150
 Entry Wire Line
-	5350 4350 5450 4250
+	5500 4350 5600 4250
 Entry Wire Line
-	5350 4450 5450 4350
+	5500 4450 5600 4350
 Entry Wire Line
-	5350 4550 5450 4450
+	5500 4550 5600 4450
 Entry Wire Line
-	5350 4650 5450 4550
+	5500 4650 5600 4550
 Entry Wire Line
-	5350 4750 5450 4650
+	5500 4750 5600 4650
 Entry Wire Line
-	5350 4850 5450 4750
+	5500 4850 5600 4750
 Entry Wire Line
-	5350 4950 5450 4850
+	5500 4950 5600 4850
 Entry Wire Line
-	5350 5050 5450 4950
-Text Label 5450 4100 0    50   ~ 10
-MA[0..11]
-Text GLabel 5450 4300 2    50   Input ~ 10
-MA[0..11]
-Text GLabel 2350 3550 0    50   Input ~ 10
+	5500 5050 5600 4950
+Text GLabel 2350 3550 0    50   Output ~ 10
 FDC_EN
 Wire Wire Line
 	3350 3350 2600 3350
@@ -350,8 +340,151 @@ Wire Wire Line
 	2600 3350 2600 3550
 Wire Wire Line
 	2600 3550 2350 3550
+Wire Wire Line
+	5350 2050 5500 2050
+Wire Wire Line
+	5350 2150 5500 2150
+Wire Wire Line
+	5350 2250 5500 2250
+Wire Wire Line
+	5350 2350 5500 2350
+Wire Wire Line
+	5350 2450 5500 2450
+Wire Wire Line
+	5350 2550 5500 2550
+Wire Wire Line
+	5350 2650 5500 2650
+Wire Wire Line
+	5350 2750 5500 2750
+Wire Wire Line
+	5350 2850 5500 2850
+Wire Wire Line
+	5350 2950 5500 2950
+Wire Wire Line
+	5350 3050 5500 3050
+Wire Wire Line
+	5350 3150 5500 3150
+Wire Wire Line
+	5350 3250 5500 3250
+Wire Wire Line
+	5350 3350 5500 3350
+Wire Wire Line
+	5350 3450 5500 3450
+Wire Wire Line
+	5350 3550 5500 3550
 Wire Bus Line
-	5450 3850 5450 5000
+	5600 1950 5700 1950
+Text Label 5350 2050 0    50   ~ 0
+A0
+Text Label 5350 2150 0    50   ~ 0
+A1
+Text Label 5350 2250 0    50   ~ 0
+A2
+Text Label 5350 2350 0    50   ~ 0
+A3
+Text Label 5350 2450 0    50   ~ 0
+A4
+Text Label 5350 2550 0    50   ~ 0
+A5
+Text Label 5350 2650 0    50   ~ 0
+A6
+Text Label 5350 2750 0    50   ~ 0
+A7
+Text Label 5350 2850 0    50   ~ 0
+A8
+Text Label 5350 2950 0    50   ~ 0
+A9
+Text Label 5350 3050 0    50   ~ 0
+A10
+Text Label 5350 3150 0    50   ~ 0
+A11
+Text Label 5350 3250 0    50   ~ 0
+A12
+Text Label 5350 3350 0    50   ~ 0
+A13
+Text Label 5350 3450 0    50   ~ 0
+A14
+Text Label 5350 3550 0    50   ~ 0
+A15
+Wire Wire Line
+	5350 3950 5500 3950
+Wire Wire Line
+	5350 4050 5500 4050
+Wire Wire Line
+	5350 4150 5500 4150
+Wire Wire Line
+	5350 4250 5500 4250
+Wire Wire Line
+	5350 4350 5500 4350
+Wire Wire Line
+	5350 4450 5500 4450
+Wire Wire Line
+	5350 4550 5500 4550
+Wire Wire Line
+	5350 4650 5500 4650
+Wire Wire Line
+	5350 4750 5500 4750
+Wire Wire Line
+	5350 4850 5500 4850
+Wire Wire Line
+	5350 4950 5500 4950
+Wire Wire Line
+	5350 5050 5500 5050
 Wire Bus Line
-	5450 1000 5450 3600
+	5600 3850 5650 3850
+Text HLabel 5650 3850 2    50   Output ~ 0
+MA[0..11]
+Text HLabel 5700 1950 2    50   Input ~ 0
+A[0..15]
+Text HLabel 7300 1000 0    50   Input ~ 0
+Vcc33
+$Comp
+L Device:R_Small R?
+U 1 1 5F14E0B3
+P 7450 1100
+F 0 "R?" H 7509 1146 50  0000 L CNN
+F 1 "0.1uF" H 7509 1055 50  0000 L CNN
+F 2 "" H 7450 1100 50  0001 C CNN
+F 3 "~" H 7450 1100 50  0001 C CNN
+	1    7450 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1000 7450 1000
+Wire Wire Line
+	7450 1000 7800 1000
+Connection ~ 7450 1000
+Text HLabel 7300 1200 0    50   Input ~ 0
+GND
+Text GLabel 7800 1000 2    50   Output ~ 0
+Vcc33
+Text GLabel 7800 1200 2    50   Output ~ 0
+GND
+Wire Wire Line
+	7800 1200 7450 1200
+Wire Wire Line
+	7300 1200 7450 1200
+Connection ~ 7450 1200
+Text GLabel 5400 750  2    50   Input ~ 0
+Vcc33
+Text HLabel 2300 3750 0    50   Input ~ 0
+R~W
+Text HLabel 2300 3900 0    50   Output ~ 0
+~OE
+Wire Wire Line
+	3350 3450 2750 3450
+Wire Wire Line
+	2750 3450 2750 3750
+Wire Wire Line
+	2750 3750 2300 3750
+Wire Wire Line
+	3350 3550 2850 3550
+Wire Wire Line
+	2850 3550 2850 3900
+Wire Wire Line
+	2850 3900 2300 3900
+Wire Bus Line
+	5600 1950 5600 3450
+Wire Bus Line
+	5600 3850 5600 5000
 $EndSCHEMATC
