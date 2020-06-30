@@ -15,8 +15,8 @@ Comment4 ""
 $EndDescr
 Text Notes 10600 7650 0    50   ~ 10
 0
-Text Notes 7050 6950 0    50   ~ 10
-Audio + outputs\nAudio DRAM\nIDE-Interface\nFloppy drive interface
+Text Notes 7050 6800 0    50   ~ 10
+EN5503 DOC Audio + outputs\n64kB Audio DRAM\n
 Wire Wire Line
 	11150 3600 11150 550 
 $Comp
@@ -25,6 +25,7 @@ U 1 1 5EFB7822
 P 5900 2150
 AR Path="/5EFB7822" Ref="U12"  Part="1" 
 AR Path="/5F47C633/5EFB7822" Ref="U12"  Part="1" 
+AR Path="/5F16299B/5EFB7822" Ref="U12"  Part="1" 
 F 0 "U12" H 5900 2275 50  0000 C CNN
 F 1 "EN5503DOC" H 5900 2184 50  0000 C CNN
 F 2 "" H 5900 2150 50  0001 C CNN

@@ -208,20 +208,14 @@ Wire Wire Line
 	7650 5750 7850 5750
 Wire Wire Line
 	7850 5750 7850 5950
-Wire Wire Line
-	7850 5950 7550 5950
 Text GLabel 6450 4050 0    50   Input ~ 10
 IRQ
 Wire Wire Line
 	7850 4450 7850 4050
 Wire Wire Line
-	7850 4050 6700 4050
-Wire Wire Line
 	7650 4450 7850 4450
 Wire Wire Line
 	9700 3500 6000 3500
-Wire Wire Line
-	6000 3500 6000 3750
 Wire Wire Line
 	6000 5700 6950 5700
 Wire Wire Line
@@ -405,96 +399,18 @@ Wire Wire Line
 Connection ~ 7950 3550
 Wire Wire Line
 	7950 3550 6050 3550
-$Comp
-L prometh_custom:EN5503DOC U12
-U 1 1 5F1893D3
-P 2650 1500
-AR Path="/5F1893D3" Ref="U12"  Part="1" 
-AR Path="/5F47C633/5F1893D3" Ref="U12"  Part="1" 
-F 0 "U12" H 2650 1625 50  0000 C CNN
-F 1 "EN5503DOC" H 2650 1534 50  0000 C CNN
-F 2 "" H 2650 1500 50  0001 C CNN
-F 3 "" H 2650 1500 50  0001 C CNN
-	1    2650 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 4050 6700 3800
-Wire Wire Line
-	6700 3800 1600 3800
-Wire Wire Line
-	1600 3800 1600 3300
-Wire Wire Line
-	1600 3300 2200 3300
-Connection ~ 6700 4050
-Wire Wire Line
-	6700 4050 6450 4050
-Wire Wire Line
-	2050 3750 2050 3500
-Wire Wire Line
-	2050 3500 2200 3500
-Wire Wire Line
-	9850 550  1150 550 
-Wire Wire Line
-	1150 550  1150 3400
-Wire Wire Line
-	1150 3400 2200 3400
 Wire Wire Line
 	6050 3550 6050 5750
-Wire Wire Line
-	2050 3750 6000 3750
-Connection ~ 6000 3750
-Wire Wire Line
-	6000 3750 6000 5700
-Wire Wire Line
-	7550 5950 7550 5800
-Wire Wire Line
-	7550 5800 1200 5800
-Wire Wire Line
-	1200 5800 1200 1300
-Wire Wire Line
-	1200 1300 3200 1300
-Wire Wire Line
-	3200 1300 3200 1700
-Wire Wire Line
-	3200 1700 3100 1700
-Connection ~ 7550 5950
-Wire Wire Line
-	7550 5950 7500 5950
-Text GLabel 3800 3500 2    50   Input ~ 10
-AUDIO_EN
-Wire Wire Line
-	3100 3500 3800 3500
-Text GLabel 1500 1600 0    50   Input ~ 10
-PHI2
-Wire Wire Line
-	1500 1600 2200 1600
-$Comp
-L Connector:AudioJack2 J13
-U 1 1 5F1E7CA0
-P 800 1850
-F 0 "J13" H 832 2175 50  0000 C CNN
-F 1 "Left Audio" H 832 2084 50  0000 C CNN
-F 2 "" H 800 1850 50  0001 C CNN
-F 3 "~" H 800 1850 50  0001 C CNN
-	1    800  1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2 J14
-U 1 1 5F1EC018
-P 800 2400
-F 0 "J14" H 832 2725 50  0000 C CNN
-F 1 "Right Audio" H 832 2634 50  0000 C CNN
-F 2 "" H 800 2400 50  0001 C CNN
-F 3 "~" H 800 2400 50  0001 C CNN
-	1    800  2400
-	1    0    0    -1  
-$EndComp
 Wire Bus Line
 	10600 2150 10600 2500
 Wire Bus Line
 	6900 4700 6900 4900
 Wire Bus Line
 	6900 4950 6900 5650
+Wire Wire Line
+	6000 3500 6000 5700
+Wire Wire Line
+	6450 4050 7850 4050
+Wire Wire Line
+	7500 5950 7850 5950
 $EndSCHEMATC
