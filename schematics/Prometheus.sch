@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -803,6 +803,12 @@ Text Label 4900 3150 0    50   ~ 0
 D6
 Text Label 4900 3050 0    50   ~ 0
 D7
+$Sheet
+S 3600 6300 700  550 
+U 5F16299B
+F0 "Audio" 50
+F1 "audio.sch" 50
+$EndSheet
 Wire Bus Line
 	3850 3250 3850 3600
 Wire Bus Line

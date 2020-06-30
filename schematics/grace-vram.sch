@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -286,8 +286,6 @@ NoConn ~ 3600 2950
 NoConn ~ 4100 2950
 NoConn ~ 1750 2950
 NoConn ~ 2250 2950
-Text GLabel 1100 1150 0    50   Input ~ 10
-GRACE_EN
 Entry Wire Line
 	1500 1150 1600 1250
 Entry Wire Line
@@ -339,21 +337,19 @@ Entry Wire Line
 Entry Wire Line
 	2400 1850 2500 1950
 Entry Wire Line
-	3500 1050 3600 1150
+	3350 1050 3450 1150
 Entry Wire Line
-	3500 1150 3600 1250
+	3350 1150 3450 1250
 Entry Wire Line
-	3500 1250 3600 1350
+	3350 1250 3450 1350
 Entry Wire Line
-	3500 1350 3600 1450
+	3350 1350 3450 1450
 Entry Wire Line
-	3500 1450 3600 1550
+	3350 1450 3450 1550
 Entry Wire Line
-	3500 1550 3600 1650
+	3350 1550 3450 1650
 Entry Wire Line
-	3500 1650 3600 1750
-Text GLabel 3500 1350 0    50   Input ~ 10
-RGBBus
+	3350 1650 3450 1750
 $Comp
 L Connector:DB15_Female_HighDensity J12
 U 1 1 5EF6EAB3
@@ -854,12 +850,32 @@ Text Label 2300 1750 0    50   ~ 0
 D6
 Text Label 2300 1850 0    50   ~ 0
 D7
+Text HLabel 1100 1150 0    50   Input ~ 0
+GRACE_EN
+Wire Wire Line
+	3600 1150 3450 1150
+Wire Wire Line
+	3600 1250 3450 1250
+Wire Wire Line
+	3600 1350 3450 1350
+Wire Wire Line
+	3600 1450 3450 1450
+Wire Wire Line
+	3600 1550 3450 1550
+Wire Wire Line
+	3600 1650 3450 1650
+Wire Wire Line
+	3600 1750 3450 1750
 Wire Bus Line
-	3500 1050 3500 1750
+	3350 1050 3300 1050
+Wire Bus Line
+	3350 1050 3350 1750
 Wire Bus Line
 	8200 4000 9950 4000
 Wire Bus Line
 	2500 1100 2500 2000
 Wire Bus Line
 	1500 1150 1500 2900
+Text HLabel 3300 1050 0    50   Input ~ 0
+RGBBus
 $EndSCHEMATC

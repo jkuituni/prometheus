@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ Text Notes 7050 6950 0    50   ~ 10
 Audio + outputs\nAudio DRAM\nIDE-Interface\nFloppy drive interface
 $Comp
 L Connector_Generic:Conn_02x20_Top_Bottom J9
-U 1 1 5F78C895
+U 1 1 5EFB7825
 P 10200 1950
 F 0 "J9" H 10250 3067 50  0000 C CNN
 F 1 "IDE Connector" H 10250 2976 50  0000 C CNN
@@ -78,7 +78,7 @@ Text GLabel 10600 2300 2    50   Input ~ 0
 A[0..15]
 $Comp
 L Device:LED D2
-U 1 1 5F796C27
+U 1 1 5EFB7826
 P 10350 3450
 F 0 "D2" H 10343 3195 50  0000 C CNN
 F 1 "IDE LED" H 10343 3286 50  0000 C CNN
@@ -91,7 +91,7 @@ Wire Wire Line
 	9800 3050 10500 3050
 $Comp
 L Device:R R2
-U 1 1 5F7988E6
+U 1 1 5EFB7827
 P 10650 3050
 F 0 "R2" H 10720 3096 50  0000 L CNN
 F 1 "R330" H 10720 3005 50  0000 L CNN
@@ -492,9 +492,9 @@ F 3 "~" H 800 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	6900 4700 6900 4900
-Wire Bus Line
 	10600 2150 10600 2500
+Wire Bus Line
+	6900 4700 6900 4900
 Wire Bus Line
 	6900 4950 6900 5650
 $EndSCHEMATC
