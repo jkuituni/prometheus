@@ -122,42 +122,18 @@ Entry Wire Line
 	5500 3450 5600 3350
 Entry Wire Line
 	5500 3550 5600 3450
-Text GLabel 2450 2050 0    50   Output ~ 10
-RTC_EN
-Text GLabel 2450 2200 0    50   Output ~ 10
-VIA1_EN
 Wire Wire Line
 	3350 2150 3050 2150
 Wire Wire Line
 	3050 2150 3050 2200
-Text GLabel 2450 2350 0    50   Output ~ 10
-VIA2_EN
 Wire Wire Line
 	3350 2250 3100 2250
 Wire Wire Line
 	3100 2250 3100 2350
-Text GLabel 2450 2500 0    50   Output ~ 10
-ROM_EN
 Wire Wire Line
 	3350 2350 3150 2350
 Wire Wire Line
 	3150 2350 3150 2400
-Wire Wire Line
-	2600 2500 2450 2500
-Text GLabel 2450 2650 0    50   Output ~ 10
-RAM_EN
-Wire Wire Line
-	2650 2650 2450 2650
-Text GLabel 2450 2800 0    50   Output ~ 10
-UART_EN
-Text GLabel 2400 2950 0    50   Output ~ 10
-GRACE_EN
-Wire Wire Line
-	2450 2050 3350 2050
-Wire Wire Line
-	2450 2200 3050 2200
-Wire Wire Line
-	2450 2350 3100 2350
 Wire Wire Line
 	2600 2500 2600 2400
 Wire Wire Line
@@ -171,37 +147,21 @@ Wire Wire Line
 Wire Wire Line
 	2700 2550 3350 2550
 Wire Wire Line
-	2450 2800 2700 2800
-Wire Wire Line
 	2750 2650 2750 2950
 Wire Wire Line
 	2750 2650 3350 2650
-Wire Wire Line
-	2400 2950 2750 2950
-Text GLabel 2350 3100 0    50   Output ~ 10
-CAS
 Wire Wire Line
 	3350 2950 2800 2950
 Wire Wire Line
 	2800 2950 2800 3100
 Wire Wire Line
-	2800 3100 2350 3100
-Text GLabel 2350 3250 0    50   Output ~ 10
-RAS
-Wire Wire Line
 	3350 3150 2500 3150
 Wire Wire Line
 	2500 3150 2500 3250
 Wire Wire Line
-	2500 3250 2350 3250
-Text GLabel 2350 3400 0    50   Output ~ 10
-AUDIO_EN
-Wire Wire Line
 	3350 3250 2550 3250
 Wire Wire Line
 	2550 3250 2550 3400
-Wire Wire Line
-	2550 3400 2350 3400
 $Comp
 L Connector_Generic:Conn_02x07_Top_Bottom J2
 U 1 1 5F1C321B
@@ -332,14 +292,10 @@ Entry Wire Line
 	5500 4950 5600 4850
 Entry Wire Line
 	5500 5050 5600 4950
-Text GLabel 2350 3550 0    50   Output ~ 10
-FDC_EN
 Wire Wire Line
 	3350 3350 2600 3350
 Wire Wire Line
 	2600 3350 2600 3550
-Wire Wire Line
-	2600 3550 2350 3550
 Wire Wire Line
 	5350 2050 5500 2050
 Wire Wire Line
@@ -467,22 +423,74 @@ Wire Wire Line
 Connection ~ 7450 1200
 Text GLabel 5400 750  2    50   Input ~ 0
 Vcc33
-Text HLabel 2300 3750 0    50   Input ~ 0
+Text HLabel 2300 3850 0    50   Input ~ 0
 R~W
-Text HLabel 2300 3900 0    50   Output ~ 0
+Text HLabel 2300 4000 0    50   Output ~ 0
 ~OE
 Wire Wire Line
-	3350 3450 2750 3450
+	2750 3550 2750 3850
 Wire Wire Line
-	2750 3450 2750 3750
+	2750 3850 2300 3850
 Wire Wire Line
-	2750 3750 2300 3750
+	2850 3650 2850 4000
 Wire Wire Line
-	3350 3550 2850 3550
+	2850 4000 2300 4000
+Text HLabel 2300 2050 0    50   Output ~ 0
+RTC_EN
+Text HLabel 2300 2200 0    50   Output ~ 0
+VIA1_EN
+Text HLabel 2300 2350 0    50   Output ~ 0
+VIA2_EN
+Text HLabel 2300 2500 0    50   Output ~ 0
+ROM_EN
+Text HLabel 2300 2650 0    50   Output ~ 0
+RAM_EN
+Text HLabel 2300 2800 0    50   Output ~ 0
+UART_EN
+Text HLabel 2300 2950 0    50   Output ~ 0
+GRACE_EN
+Text HLabel 2300 3400 0    50   Output ~ 0
+AUDIO_EN
+Text HLabel 2300 3550 0    50   Output ~ 0
+FDC_EN
+Text HLabel 2300 3100 0    50   Output ~ 0
+CAS
+Text HLabel 2300 3250 0    50   Output ~ 0
+RAS
 Wire Wire Line
-	2850 3550 2850 3900
+	2300 2050 3350 2050
 Wire Wire Line
-	2850 3900 2300 3900
+	2300 2200 3050 2200
+Wire Wire Line
+	2300 2350 3100 2350
+Wire Wire Line
+	2300 2500 2600 2500
+Wire Wire Line
+	2300 2650 2650 2650
+Wire Wire Line
+	2300 2800 2700 2800
+Wire Wire Line
+	2300 2950 2750 2950
+Wire Wire Line
+	2300 3100 2800 3100
+Wire Wire Line
+	2300 3250 2500 3250
+Wire Wire Line
+	2300 3400 2550 3400
+Wire Wire Line
+	2300 3550 2600 3550
+Text HLabel 2300 3700 0    50   Input ~ 0
+IDE_EN
+Wire Wire Line
+	3350 3650 2850 3650
+Wire Wire Line
+	2750 3550 3350 3550
+Wire Wire Line
+	2700 3450 3350 3450
+Wire Wire Line
+	2700 3450 2700 3700
+Wire Wire Line
+	2700 3700 2300 3700
 Wire Bus Line
 	5600 1950 5600 3450
 Wire Bus Line
