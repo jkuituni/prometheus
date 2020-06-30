@@ -16,10 +16,12 @@ System specification:
   - ps/2 keyboard port
   - IDE massstorage interface
   - Standard floppydrive interface
-* Other: Realtime clock
+* Other: 
+  - DS1501 Realtime clock
+  - 8bit expansion port
 
 The graphics is implemented with a additional FPGA board that connects via the two 40pin connectors. System controller 
-is a CPLD that ties in the system, igenerates the chip selects and various control signals and contains a DRAM controller.
+is a CPLD that ties in the system, It generates the chip selects, various control signals and contains a DRAM controller.
 
 More accurate specifications regarding the memory layout, graphics capabilities and generic system description will be 
 added as they become available.
