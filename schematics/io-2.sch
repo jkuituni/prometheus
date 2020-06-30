@@ -15,8 +15,8 @@ Comment4 ""
 $EndDescr
 Text Notes 10600 7650 0    50   ~ 10
 0
-Text Notes 7050 6950 0    50   ~ 10
-Audio + outputs\nAudio DRAM\nIDE-Interface\nFloppy drive interface
+Text Notes 7050 6750 0    50   ~ 10
+IDE-Interface\nFloppy drive interface
 $Comp
 L Connector_Generic:Conn_02x20_Top_Bottom J9
 U 1 1 5EFB7825
