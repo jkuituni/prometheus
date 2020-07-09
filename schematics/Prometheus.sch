@@ -256,7 +256,7 @@ L Oscillator:TFT680 X1
 U 1 1 5EE9CB13
 P 6700 2300
 F 0 "X1" H 7044 2346 50  0000 L CNN
-F 1 "14MHz" H 7044 2255 50  0000 L CNN
+F 1 "8MHz" H 7044 2255 50  0000 L CNN
 F 2 "Oscillator:Oscillator_DIP-14" H 7150 1950 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 6600 2300 50  0001 C CNN
 	1    6700 2300
@@ -809,6 +809,12 @@ U 5F16299B
 F0 "Audio" 50
 F1 "audio.sch" 50
 $EndSheet
+Text GLabel 9900 3250 2    50   Input ~ 0
+RW
+Wire Wire Line
+	9900 3250 9600 3250
+Wire Wire Line
+	9600 3250 9600 3900
 Wire Bus Line
 	3850 3250 3850 3600
 Wire Bus Line

@@ -918,6 +918,10 @@ NoConn ~ 10350 5350
 NoConn ~ 10350 5550
 Wire Wire Line
 	10350 5750 10800 5750
+Connection ~ 10800 5750
+Wire Wire Line
+	10800 5750 10800 5650
+NoConn ~ 7650 4550
 Wire Wire Line
 	9700 800  9700 3800
 Wire Wire Line
@@ -956,7 +960,4 @@ Wire Bus Line
 	6750 650  6750 1650
 Wire Bus Line
 	9300 650  9300 2700
-Connection ~ 10800 5750
-Wire Wire Line
-	10800 5750 10800 5650
 $EndSCHEMATC
