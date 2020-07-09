@@ -880,7 +880,6 @@ Text GLabel 10850 2050 2    50   Input ~ 0
 IRQ
 Wire Wire Line
 	10850 2050 10500 2050
-NoConn ~ 9850 4250
 Text GLabel 9050 4150 0    50   Input ~ 0
 FDC_SIDE
 Wire Wire Line
@@ -889,7 +888,7 @@ Wire Wire Line
 	9600 4450 9600 4150
 Wire Wire Line
 	9600 4150 9050 4150
-Text GLabel 9050 4300 0    50   Input ~ 0
+Text GLabel 9050 4250 0    50   Input ~ 0
 FDC_MTREN
 Wire Wire Line
 	10350 4350 10400 4350
@@ -898,19 +897,15 @@ Wire Wire Line
 Wire Wire Line
 	10400 4100 9100 4100
 Wire Wire Line
-	9100 4100 9100 4300
-Wire Wire Line
-	9100 4300 9050 4300
-Text GLabel 9050 4450 0    50   Input ~ 0
+	9100 4100 9100 4250
+Text GLabel 9050 4350 0    50   Input ~ 0
 FDC_DRVA
 Wire Wire Line
 	10450 4550 10450 4000
 Wire Wire Line
 	10450 4000 9150 4000
 Wire Wire Line
-	9150 4000 9150 4450
-Wire Wire Line
-	9150 4450 9050 4450
+	9150 4000 9150 4350
 Wire Wire Line
 	10350 4550 10450 4550
 NoConn ~ 10350 4750
@@ -922,6 +917,18 @@ Connection ~ 10800 5750
 Wire Wire Line
 	10800 5750 10800 5650
 NoConn ~ 7650 4550
+Wire Wire Line
+	9050 4250 9100 4250
+Wire Wire Line
+	9050 4350 9150 4350
+Text GLabel 9050 4450 0    50   Input ~ 0
+FDC_DSKCHG
+Wire Wire Line
+	9850 4250 9200 4250
+Wire Wire Line
+	9200 4250 9200 4450
+Wire Wire Line
+	9200 4450 9050 4450
 Wire Wire Line
 	9700 800  9700 3800
 Wire Wire Line

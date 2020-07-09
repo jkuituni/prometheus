@@ -18,17 +18,6 @@ Text Notes 10600 7650 0    50   ~ 10
 Text Notes 7050 6800 0    50   ~ 10
 VIA 1 : Centronics, ps/2\nVIA 2: Joysticks, Expansion\nUART + MAX233 RS232 serialport
 $Comp
-L 65xx:wdc65c22 U6
-U 1 1 5F26FA50
-P 3250 1950
-F 0 "U6" H 3325 2075 50  0000 C CNN
-F 1 "wdc65c22" H 3325 1984 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W25.4mm" H 3300 1950 50  0001 C CNN
-F 3 "" H 3300 1950 50  0001 C CNN
-	1    3250 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L 65xx:wdc65c22 U7
 U 1 1 5F271A2A
 P 6600 1950
@@ -595,7 +584,6 @@ Wire Wire Line
 	1700 4750 2750 4750
 NoConn ~ 1100 4750
 NoConn ~ 1100 4950
-NoConn ~ 3000 3250
 NoConn ~ 3000 3550
 NoConn ~ 3000 3650
 NoConn ~ 3000 3750
@@ -1016,6 +1004,21 @@ Wire Wire Line
 	2850 3050 3000 3050
 Wire Wire Line
 	2800 3150 3000 3150
+$Comp
+L 65xx:wdc65c22 U6
+U 1 1 5F26FA50
+P 3250 1950
+F 0 "U6" H 3325 2075 50  0000 C CNN
+F 1 "wdc65c22" H 3325 1984 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W25.4mm" H 3300 1950 50  0001 C CNN
+F 3 "" H 3300 1950 50  0001 C CNN
+	1    3250 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 3250 0    50   Input ~ 0
+FDC_DSKCHG
+Wire Wire Line
+	3000 3250 2900 3250
 Wire Bus Line
 	3350 6850 3350 7100
 Wire Bus Line
