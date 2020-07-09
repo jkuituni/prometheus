@@ -595,9 +595,6 @@ Wire Wire Line
 	1700 4750 2750 4750
 NoConn ~ 1100 4750
 NoConn ~ 1100 4950
-NoConn ~ 3000 2950
-NoConn ~ 3000 3050
-NoConn ~ 3000 3150
 NoConn ~ 3000 3250
 NoConn ~ 3000 3550
 NoConn ~ 3000 3650
@@ -614,8 +611,6 @@ F 3 "" H 3800 5550 50  0001 C CNN
 	1    3750 5550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1000 4050 850  4050
 Wire Wire Line
 	850  4050 850  5200
 Wire Wire Line
@@ -1006,6 +1001,21 @@ Wire Wire Line
 	5750 3850 5750 2250
 Wire Wire Line
 	5750 2250 5300 2250
+Wire Wire Line
+	850  4050 1050 4050
+Connection ~ 1050 4050
+Text GLabel 2800 2950 0    50   Input ~ 0
+FDC_SIDE
+Text GLabel 2850 3050 0    50   Input ~ 0
+FDC_MTREN
+Text GLabel 2800 3150 0    50   Input ~ 0
+FDC_DRVA
+Wire Wire Line
+	2800 2950 3000 2950
+Wire Wire Line
+	2850 3050 3000 3050
+Wire Wire Line
+	2800 3150 3000 3150
 Wire Bus Line
 	3350 6850 3350 7100
 Wire Bus Line

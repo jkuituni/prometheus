@@ -555,30 +555,6 @@ Wire Wire Line
 	2950 4850 2950 5200
 Wire Wire Line
 	2950 5200 2400 5200
-Text GLabel 2350 5350 0    50   Input ~ 0
-FDC_SIDE
-Text GLabel 2350 5500 0    50   Input ~ 0
-FDC_MTREN
-Text GLabel 2350 5650 0    50   Input ~ 0
-FDC_DRVA
-Wire Wire Line
-	3350 4950 3000 4950
-Wire Wire Line
-	3000 4950 3000 5350
-Wire Wire Line
-	3000 5350 2350 5350
-Wire Wire Line
-	3050 5050 3050 5500
-Wire Wire Line
-	3050 5500 2350 5500
-Wire Wire Line
-	3050 5050 3350 5050
-Wire Wire Line
-	3350 5150 3100 5150
-Wire Wire Line
-	3100 5150 3100 5650
-Wire Wire Line
-	3100 5650 2350 5650
 Wire Bus Line
 	5600 1950 5600 3450
 Wire Bus Line
