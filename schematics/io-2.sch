@@ -62,7 +62,7 @@ Connection ~ 10800 1350
 Wire Wire Line
 	10500 1950 10800 1950
 Wire Wire Line
-	10800 1950 10800 1550
+	10800 1950 10800 1750
 Connection ~ 10800 1550
 Wire Wire Line
 	10500 2950 10500 3050
@@ -726,6 +726,160 @@ Entry Wire Line
 	9750 2650 9850 2750
 Wire Wire Line
 	9850 2750 10000 2750
+Text GLabel 5900 1700 0    50   Input ~ 0
+IDE_LDR
+Text GLabel 5750 650  0    50   Input ~ 0
+VCC
+Wire Wire Line
+	8700 550  7350 550 
+Wire Wire Line
+	7350 550  6150 550 
+Wire Wire Line
+	6150 550  6150 650 
+Wire Wire Line
+	6150 650  6100 650 
+Connection ~ 7350 550 
+Wire Wire Line
+	6550 1750 6550 650 
+Wire Wire Line
+	6550 650  6150 650 
+Connection ~ 6150 650 
+Wire Wire Line
+	6550 1750 6850 1750
+Wire Wire Line
+	7850 3350 7750 3350
+Wire Wire Line
+	7750 3350 7750 3600
+Wire Wire Line
+	7750 3600 5400 3600
+Wire Wire Line
+	5400 3600 5400 800 
+Wire Wire Line
+	5400 800  6100 800 
+Wire Wire Line
+	6100 800  6100 650 
+Connection ~ 6100 650 
+Wire Wire Line
+	6100 650  5750 650 
+Text GLabel 5900 1850 0    50   Input ~ 0
+IDE_UDW
+Wire Wire Line
+	6850 1850 6500 1850
+Wire Wire Line
+	6500 1850 6500 1700
+Wire Wire Line
+	6500 1700 6200 1700
+Wire Wire Line
+	7850 3450 7800 3450
+Wire Wire Line
+	7800 3450 7800 3700
+Wire Wire Line
+	7800 3700 6250 3700
+Wire Wire Line
+	6250 3700 6250 2000
+Wire Wire Line
+	6250 1850 5900 1850
+Wire Wire Line
+	8200 1850 8150 1850
+Wire Wire Line
+	8150 1850 8150 2200
+Wire Wire Line
+	8150 2200 7200 2200
+Wire Wire Line
+	7200 2200 7200 2000
+Wire Wire Line
+	6900 2150 6550 2150
+Wire Wire Line
+	6550 2150 6550 1750
+Connection ~ 6550 1750
+Wire Wire Line
+	8350 2150 8200 2150
+Wire Wire Line
+	8200 2150 8200 2250
+Wire Wire Line
+	7050 2250 7050 2150
+Wire Wire Line
+	7050 2150 6900 2150
+Connection ~ 6900 2150
+Text GLabel 5900 2150 0    50   Input ~ 0
+IDE_UDR
+Wire Wire Line
+	6400 3450 6150 3450
+Wire Wire Line
+	6150 3450 6150 2150
+Wire Wire Line
+	6150 2150 5900 2150
+Wire Wire Line
+	6400 3350 6200 3350
+Wire Wire Line
+	6200 3350 6200 1700
+Connection ~ 6200 1700
+Wire Wire Line
+	6200 1700 5900 1700
+Wire Wire Line
+	7200 2000 6250 2000
+Connection ~ 6250 2000
+Wire Wire Line
+	6250 2000 6250 1850
+Text GLabel 5900 2000 0    50   Input ~ 0
+IDE_LDW
+Wire Wire Line
+	8200 2250 7050 2250
+Wire Wire Line
+	8200 1750 8050 1750
+Wire Wire Line
+	8050 1750 8050 2300
+Wire Wire Line
+	8050 2300 7100 2300
+Wire Wire Line
+	7100 2300 7100 2050
+Wire Wire Line
+	7100 2050 6100 2050
+Wire Wire Line
+	6100 2050 6100 2000
+Wire Wire Line
+	6100 2000 5900 2000
+Text GLabel 10450 650  0    50   Input ~ 0
+IOW
+Text GLabel 10500 800  0    50   Input ~ 0
+IOR
+Wire Wire Line
+	10450 650  10700 650 
+Wire Wire Line
+	10700 650  10700 1250
+Wire Wire Line
+	10700 1250 10500 1250
+Wire Wire Line
+	10500 800  10750 800 
+Wire Wire Line
+	10750 800  10750 1450
+Wire Wire Line
+	10750 1450 10500 1450
+Wire Wire Line
+	10500 1750 10800 1750
+Connection ~ 10800 1750
+Wire Wire Line
+	10800 1750 10800 1550
+Text GLabel 10750 2550 2    50   Input ~ 0
+IDE_CS0
+Text GLabel 10750 2700 2    50   Input ~ 0
+IDE_CS1
+Wire Wire Line
+	10750 2550 10600 2550
+Wire Wire Line
+	10600 2550 10600 2650
+Wire Wire Line
+	10600 2650 10500 2650
+Wire Wire Line
+	10750 2700 10650 2700
+Wire Wire Line
+	10650 2700 10650 2750
+Wire Wire Line
+	10650 2750 10500 2750
+Text GLabel 10850 2050 2    50   Input ~ 0
+IRQ
+Wire Wire Line
+	10850 2050 10500 2050
 Wire Wire Line
 	9700 800  9700 3800
 Wire Wire Line

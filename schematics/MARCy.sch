@@ -491,6 +491,70 @@ Wire Wire Line
 	2700 3450 2700 3700
 Wire Wire Line
 	2700 3700 2300 3700
+Text GLabel 2450 4150 0    50   Input ~ 0
+IDE_LDR
+Text GLabel 2450 4300 0    50   Input ~ 0
+IDE_UDR
+Text GLabel 2450 4450 0    50   Input ~ 0
+IDE_LDW
+Text GLabel 2450 4600 0    50   Input ~ 0
+IDE_UDW
+Text GLabel 2450 4750 0    50   Input ~ 0
+IDE_CS0
+Text GLabel 2450 4900 0    50   Input ~ 0
+IDE_CS1
+Wire Wire Line
+	3350 3750 2900 3750
+Wire Wire Line
+	2900 3750 2900 4150
+Wire Wire Line
+	2900 4150 2450 4150
+Wire Wire Line
+	3350 4250 2700 4250
+Wire Wire Line
+	2700 4250 2700 4300
+Wire Wire Line
+	2700 4300 2450 4300
+Wire Wire Line
+	3350 4350 2700 4350
+Wire Wire Line
+	2700 4350 2700 4450
+Wire Wire Line
+	2700 4450 2450 4450
+Wire Wire Line
+	3350 4450 2750 4450
+Wire Wire Line
+	2750 4450 2750 4600
+Wire Wire Line
+	2750 4600 2450 4600
+Wire Wire Line
+	2800 4550 2800 4750
+Wire Wire Line
+	2800 4750 2450 4750
+Wire Wire Line
+	2850 4650 2850 4900
+Wire Wire Line
+	2850 4900 2450 4900
+Wire Wire Line
+	2850 4650 3350 4650
+Wire Wire Line
+	2800 4550 3350 4550
+Text GLabel 2400 5050 0    50   Input ~ 0
+IOR
+Text GLabel 2400 5200 0    50   Input ~ 0
+IOW
+Wire Wire Line
+	3350 4750 2900 4750
+Wire Wire Line
+	2900 4750 2900 5050
+Wire Wire Line
+	2900 5050 2400 5050
+Wire Wire Line
+	3350 4850 2950 4850
+Wire Wire Line
+	2950 4850 2950 5200
+Wire Wire Line
+	2950 5200 2400 5200
 Wire Bus Line
 	5600 1950 5600 3450
 Wire Bus Line
