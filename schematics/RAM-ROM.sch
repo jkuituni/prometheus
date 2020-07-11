@@ -220,4 +220,6 @@ Wire Bus Line
 	8000 1500 8000 2250
 Wire Bus Line
 	7000 1600 7000 2900
+Wire Bus Line
+	950  1000 950  2250
 $EndSCHEMATC
