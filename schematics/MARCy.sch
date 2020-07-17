@@ -567,4 +567,6 @@ Wire Bus Line
 	5600 1950 5600 3450
 Wire Bus Line
 	5600 3850 5600 5000
+Text Notes 800  5400 0    50   ~ 0
+This pin needs to be negated\nfor Bus Address decoding! >>>
 $EndSCHEMATC
