@@ -392,35 +392,6 @@ Text HLabel 5650 3850 2    50   Output ~ 0
 MA[0..11]
 Text HLabel 5700 1950 2    50   Input ~ 0
 A[0..15]
-Text HLabel 7300 1000 0    50   Input ~ 0
-Vcc33
-$Comp
-L Device:R_Small R?
-U 1 1 5F14E0B3
-P 7450 1100
-F 0 "R?" H 7509 1146 50  0000 L CNN
-F 1 "0.1uF" H 7509 1055 50  0000 L CNN
-F 2 "" H 7450 1100 50  0001 C CNN
-F 3 "~" H 7450 1100 50  0001 C CNN
-	1    7450 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 1000 7450 1000
-Wire Wire Line
-	7450 1000 7800 1000
-Connection ~ 7450 1000
-Text HLabel 7300 1200 0    50   Input ~ 0
-GND
-Text GLabel 7800 1000 2    50   Output ~ 0
-Vcc33
-Text GLabel 7800 1200 2    50   Output ~ 0
-GND
-Wire Wire Line
-	7800 1200 7450 1200
-Wire Wire Line
-	7300 1200 7450 1200
-Connection ~ 7450 1200
 Text GLabel 5400 750  2    50   Input ~ 0
 Vcc33
 Text HLabel 2300 3850 0    50   Input ~ 0
@@ -555,6 +526,35 @@ Wire Wire Line
 	2300 5050 2900 5050
 Wire Wire Line
 	2300 5200 2950 5200
+Text HLabel 8250 3450 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 61660BC5
+P 8550 3300
+F 0 "C?" H 8665 3346 50  0000 L CNN
+F 1 "0.1uF" H 8665 3255 50  0000 L CNN
+F 2 "" H 8588 3150 50  0001 C CNN
+F 3 "~" H 8550 3300 50  0001 C CNN
+	1    8550 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3150 8550 3150
+Wire Wire Line
+	8250 3450 8550 3450
+Text GLabel 9000 3450 2    50   Input ~ 10
+GND
+Text HLabel 8250 3150 0    50   Input ~ 0
+Vcc33
+Text GLabel 9000 3150 2    50   Input ~ 0
+Vcc33
+Wire Wire Line
+	8550 3450 9000 3450
+Connection ~ 8550 3450
+Wire Wire Line
+	8550 3150 9000 3150
+Connection ~ 8550 3150
 Wire Bus Line
 	5600 1950 5600 3450
 Wire Bus Line
