@@ -168,13 +168,28 @@ F0 "I/O 1" 50
 F1 "io-1.sch" 50
 $EndSheet
 $Sheet
-S 3200 5450 600  500 
+S 5100 4400 1050 1700
 U 5F47C633
 F0 "I/O 2" 50
 F1 "io-2.sch" 50
+F2 "A[0..23]" I L 5100 4550 50 
+F3 "D[0..7]" B L 5100 4700 50 
+F4 "IRQ" O L 5100 4850 50 
+F5 "FDC_EN" I L 5100 5100 50 
+F6 "R~W" I L 5100 5250 50 
+F7 "Vcc" I R 6150 4700 50 
+F8 "GND" I R 6150 4550 50 
+F9 "IOR" I L 5100 5400 50 
+F10 "IOW" I L 5100 5550 50 
+F11 "RESET" I L 5100 5700 50 
+F12 "IDE_LDR" I R 6150 4950 50 
+F13 "IDE_LDW" I R 6150 5200 50 
+F14 "IDE_UDR" I R 6150 5050 50 
+F15 "IDE_UDW" I R 6150 5300 50 
+F16 "IRQ_HIGH" O L 5100 4950 50 
 $EndSheet
 $Sheet
-S 4000 5450 600  500 
+S 1150 6850 600  500 
 U 5F47CC44
 F0 "MARCy Controller" 50
 F1 "MARCy.sch" 50
@@ -267,8 +282,6 @@ NoConn ~ 8900 3500
 NoConn ~ 7950 3900
 NoConn ~ 7950 3700
 NoConn ~ 7950 3300
-Text GLabel 10450 4200 2    50   Output ~ 0
-~WE
 Wire Wire Line
 	8900 4000 9200 4000
 Wire Wire Line
@@ -573,41 +586,9 @@ F 3 "~" H 8600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9350 1900 8900 1900
-Connection ~ 8900 1600
-Wire Wire Line
-	8900 1600 9350 1600
-$Comp
-L Device:R R?
-U 1 1 5F5C22AE
-P 9350 1750
-F 0 "R?" H 9420 1796 50  0000 L CNN
-F 1 "0.1uF" H 9420 1705 50  0000 L CNN
-F 2 "" V 9280 1750 50  0001 C CNN
-F 3 "~" H 9350 1750 50  0001 C CNN
-	1    9350 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5F5C1E3A
-P 8900 1750
-F 0 "R?" H 8970 1796 50  0000 L CNN
-F 1 "0.1uF" H 8970 1705 50  0000 L CNN
-F 2 "" V 8830 1750 50  0001 C CNN
-F 3 "~" H 8900 1750 50  0001 C CNN
-	1    8900 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	8450 1600 8600 1600
 Connection ~ 8600 1600
-Wire Wire Line
-	8600 1600 8900 1600
-Wire Wire Line
-	8600 1900 8900 1900
 Connection ~ 8600 1900
-Connection ~ 8900 1900
 Text GLabel 8450 1900 0    50   Input ~ 0
 GND
 Text GLabel 8450 1600 0    50   Input ~ 0
@@ -703,30 +684,6 @@ Wire Wire Line
 	4850 2850 5050 2850
 Wire Wire Line
 	4850 2950 5050 2950
-$Comp
-L 74xx:74HC04 U?
-U 1 1 5F89027D
-P 10000 3900
-F 0 "U?" H 10000 4217 50  0000 C CNN
-F 1 "74HC04" H 10000 4126 50  0000 C CNN
-F 2 "" H 10000 3900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 10000 3900 50  0001 C CNN
-	1    10000 3900
-	1    0    0    -1  
-$EndComp
-Text GLabel 10450 3900 2    50   Output ~ 0
-~OE
-Wire Wire Line
-	8900 3900 9600 3900
-Wire Wire Line
-	10450 3900 10300 3900
-Wire Wire Line
-	10450 4200 9600 4200
-Wire Wire Line
-	9600 4200 9600 3900
-Connection ~ 9600 3900
-Wire Wire Line
-	9600 3900 9700 3900
 Text GLabel 5050 2750 2    50   Input ~ 0
 ~OE
 Text GLabel 5050 2850 2    50   Input ~ 0
@@ -809,12 +766,66 @@ U 5F16299B
 F0 "Audio" 50
 F1 "audio.sch" 50
 $EndSheet
-Text GLabel 9900 3250 2    50   Input ~ 0
+Text GLabel 9200 3900 2    50   Output ~ 0
 RW
 Wire Wire Line
-	9900 3250 9600 3250
+	9200 3900 8900 3900
 Wire Wire Line
-	9600 3250 9600 3900
+	8600 1600 8950 1600
+Wire Wire Line
+	8600 1900 8950 1900
+$Comp
+L Device:C C?
+U 1 1 5F54B18B
+P 9450 1750
+F 0 "C?" H 9565 1796 50  0000 L CNN
+F 1 "0.1uF" H 9565 1705 50  0000 L CNN
+F 2 "" H 9488 1600 50  0001 C CNN
+F 3 "~" H 9450 1750 50  0001 C CNN
+	1    9450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F54B236
+P 8950 1750
+F 0 "C?" H 9065 1796 50  0000 L CNN
+F 1 "0.1uF" H 9065 1705 50  0000 L CNN
+F 2 "" H 8988 1600 50  0001 C CNN
+F 3 "~" H 8950 1750 50  0001 C CNN
+	1    8950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 1600 9450 1600
+Connection ~ 8950 1600
+Wire Wire Line
+	8950 1900 9450 1900
+Connection ~ 8950 1900
+Text GLabel 6250 4550 2    50   Input ~ 0
+GND
+Text GLabel 6250 4700 2    50   Input ~ 0
+Vcc
+Text GLabel 5000 4550 0    50   Output ~ 0
+A[0..23]
+Text GLabel 5000 4850 0    50   Input ~ 0
+IRQ
+Text GLabel 5000 5250 0    50   Output ~ 0
+RW
+Text GLabel 5000 5700 0    50   Input ~ 0
+RES
+Wire Wire Line
+	5000 5700 5100 5700
+Wire Wire Line
+	5000 5250 5100 5250
+Wire Wire Line
+	5000 4850 5100 4850
+Wire Wire Line
+	5000 4550 5100 4550
+Wire Wire Line
+	6150 4550 6250 4550
+Wire Wire Line
+	6150 4700 6250 4700
 Wire Bus Line
 	3850 3250 3850 3600
 Wire Bus Line
