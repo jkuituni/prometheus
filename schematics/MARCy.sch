@@ -555,6 +555,14 @@ Connection ~ 8550 3450
 Wire Wire Line
 	8550 3150 9000 3150
 Connection ~ 8550 3150
+Text HLabel 2300 5350 0    50   Input ~ 0
+PHI2
+Wire Wire Line
+	3350 4950 3000 4950
+Wire Wire Line
+	3000 4950 3000 5350
+Wire Wire Line
+	3000 5350 2300 5350
 Wire Bus Line
 	5600 1950 5600 3450
 Wire Bus Line
