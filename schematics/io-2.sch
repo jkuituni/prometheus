@@ -1276,4 +1276,6 @@ Wire Bus Line
 	5700 1050 5700 1950
 Wire Bus Line
 	5300 2650 5300 3950
+Text Notes 550  5000 0    50   ~ 0
+This is active high! >>>
 $EndSCHEMATC
