@@ -868,6 +868,8 @@ Wire Wire Line
 	3600 1750 3450 1750
 Wire Bus Line
 	3350 1050 3300 1050
+Text HLabel 3300 1050 0    50   Input ~ 0
+RGBBus
 Wire Bus Line
 	3350 1050 3350 1750
 Wire Bus Line
@@ -876,6 +878,4 @@ Wire Bus Line
 	2500 1100 2500 2000
 Wire Bus Line
 	1500 1150 1500 2900
-Text HLabel 3300 1050 0    50   Input ~ 0
-RGBBus
 $EndSCHEMATC

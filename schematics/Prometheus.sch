@@ -145,21 +145,21 @@ Wire Wire Line
 	2100 1950 2100 2150
 Wire Wire Line
 	2100 2150 1900 2150
-Text GLabel 950  5650 0    50   Input ~ 0
+Text GLabel 1850 3200 0    50   Input ~ 0
 A[0..15]
 Wire Wire Line
-	1050 5650 950  5650
-Text GLabel 950  5800 0    50   BiDi ~ 0
+	1950 3200 1850 3200
+Text GLabel 1850 3350 0    50   BiDi ~ 0
 D[0..7]
 Wire Wire Line
-	1050 5800 950  5800
+	1950 3350 1850 3350
 $Sheet
-S 1050 5450 850  850 
+S 1950 3000 850  850 
 U 5EF72E92
 F0 "GRACE & VRAM" 50
 F1 "grace-vram.sch" 50
-F2 "A[0..15]" I L 1050 5650 50 
-F3 "D[0..7]" B L 1050 5800 50 
+F2 "A[0..15]" I L 1950 3200 50 
+F3 "D[0..7]" B L 1950 3350 50 
 $EndSheet
 $Sheet
 S 850  3600 650  600 
@@ -168,7 +168,7 @@ F0 "I/O 1" 50
 F1 "io-1.sch" 50
 $EndSheet
 $Sheet
-S 5100 4400 1050 1700
+S 5100 4400 1050 1400
 U 5F47C633
 F0 "I/O 2" 50
 F1 "io-2.sch" 50
@@ -187,18 +187,41 @@ F13 "IDE_UDR" I R 6150 5050 50
 F14 "IDE_UDW" I R 6150 5300 50 
 F15 "IRQ_HIGH" O L 5100 4950 50 
 F16 "A[0..15]" I L 5100 4550 50 
+F17 "IDE_CS0" I R 6150 5500 50 
+F18 "IDE_CS1" I R 6150 5600 50 
 $EndSheet
 $Sheet
-S 1150 6850 600  500 
+S 1200 4650 950  2550
 U 5F47CC44
 F0 "MARCy Controller" 50
 F1 "MARCy.sch" 50
-$EndSheet
-$Sheet
-S 3250 4400 650  550 
-U 5F47D036
-F0 "RAM & ROM" 50
-F1 "RAM-ROM.sch" 50
+F2 "MA[0..11]" O R 2150 5100 50 
+F3 "A[0..15]" I L 1200 4900 50 
+F4 "R~W" I L 1200 5250 50 
+F5 "~OE" O R 2150 5400 50 
+F6 "RTC_EN" O R 2150 5750 50 
+F7 "VIA1_EN" O R 2150 5850 50 
+F8 "VIA2_EN" O R 2150 5950 50 
+F9 "ROM_EN" O R 2150 6050 50 
+F10 "RAM_EN" O R 2150 6150 50 
+F11 "UART_EN" O R 2150 6250 50 
+F12 "GRACE_EN" O R 2150 6350 50 
+F13 "AUDIO_EN" O R 2150 6450 50 
+F14 "FDC_EN" O R 2150 6550 50 
+F15 "CAS" O L 1200 5950 50 
+F16 "RAS" O L 1200 6050 50 
+F17 "IDE_EN" O R 2150 6650 50 
+F18 "IOW" O L 1200 6300 50 
+F19 "IOR" O L 1200 6400 50 
+F20 "IDE_CS1" O L 1200 6600 50 
+F21 "IDE_CS0" O L 1200 6500 50 
+F22 "IDE_UDW" O L 1200 6800 50 
+F23 "IDE_LDW" O L 1200 6700 50 
+F24 "IDE_UDR" O L 1200 7000 50 
+F25 "IDE_LDR" O L 1200 6900 50 
+F26 "GND" I R 2150 4750 50 
+F27 "Vcc33" I R 2150 4850 50 
+F28 "PHI2" I L 1200 5100 50 
 $EndSheet
 Text GLabel 1350 1550 2    50   Input ~ 0
 Vcc33
@@ -761,7 +784,7 @@ D6
 Text Label 4900 3050 0    50   ~ 0
 D7
 $Sheet
-S 5550 6700 700  550 
+S 6100 3600 700  550 
 U 5F16299B
 F0 "Audio" 50
 F1 "audio.sch" 50
@@ -806,11 +829,11 @@ Text GLabel 6250 4550 2    50   Input ~ 0
 GND
 Text GLabel 6250 4700 2    50   Input ~ 0
 Vcc
-Text GLabel 5000 4550 0    50   Output ~ 0
+Text GLabel 5000 4550 0    50   Input ~ 0
 A[0..15]
-Text GLabel 5000 4850 0    50   Input ~ 0
+Text GLabel 5000 4850 0    50   Output ~ 0
 IRQ
-Text GLabel 5000 5250 0    50   Output ~ 0
+Text GLabel 5000 5250 0    50   Input ~ 0
 RW
 Text GLabel 5000 5700 0    50   Input ~ 0
 RES
@@ -826,6 +849,194 @@ Wire Wire Line
 	6150 4550 6250 4550
 Wire Wire Line
 	6150 4700 6250 4700
+$Sheet
+S 5200 6600 850  800 
+U 5F47D036
+F0 "RAM & ROM" 50
+F1 "RAM-ROM.sch" 50
+F2 "D[0..7]" B L 5200 6850 50 
+F3 "A[0..15]" I L 5200 6750 50 
+F4 "VCC" I R 6050 6800 50 
+F5 "GND" I R 6050 6700 50 
+F6 "DQ[0..7]" B L 5200 7000 50 
+F7 "MA[0..11]" I L 5200 7150 50 
+F8 "CAS" I R 6050 6950 50 
+F9 "RAS" I R 6050 7050 50 
+F10 "R~W" I L 5200 7300 50 
+F11 "ROM_EN" I R 6050 7250 50 
+$EndSheet
+Wire Wire Line
+	6050 6700 6150 6700
+Wire Wire Line
+	6050 6800 6150 6800
+Text GLabel 6150 6700 2    50   Input ~ 0
+GND
+Text GLabel 6150 6800 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	5200 6750 5100 6750
+Wire Wire Line
+	5200 6850 5100 6850
+Wire Wire Line
+	5200 7000 5100 7000
+Wire Wire Line
+	5200 7150 5100 7150
+Text GLabel 5100 6750 0    50   Input ~ 0
+A[0..15]
+Wire Wire Line
+	5100 4700 5000 4700
+Text GLabel 5000 4700 0    50   BiDi ~ 0
+D[0..7]
+Text GLabel 5100 6850 0    50   BiDi ~ 0
+D[0..7]
+Wire Wire Line
+	1200 4900 1100 4900
+Wire Wire Line
+	1200 5100 1100 5100
+Wire Wire Line
+	1200 5250 1100 5250
+Wire Wire Line
+	1200 5950 1100 5950
+Wire Wire Line
+	1200 6050 1100 6050
+Wire Wire Line
+	1200 6300 1100 6300
+Wire Wire Line
+	1200 6400 1100 6400
+Wire Wire Line
+	1200 6500 1100 6500
+Wire Wire Line
+	1200 6600 1100 6600
+Wire Wire Line
+	1200 6700 1100 6700
+Wire Wire Line
+	1200 6800 1100 6800
+Wire Wire Line
+	1200 6900 1100 6900
+Wire Wire Line
+	1200 7000 1100 7000
+Wire Wire Line
+	2150 4750 2250 4750
+Wire Wire Line
+	2150 4850 2250 4850
+Wire Wire Line
+	2150 5100 2250 5100
+Wire Wire Line
+	2150 5400 2250 5400
+Wire Wire Line
+	2150 5750 2250 5750
+Wire Wire Line
+	2150 5850 2250 5850
+Wire Wire Line
+	2150 5950 2250 5950
+Wire Wire Line
+	2150 6050 2250 6050
+Wire Wire Line
+	2150 6150 2250 6150
+Wire Wire Line
+	2150 6250 2250 6250
+Wire Wire Line
+	2150 6350 2250 6350
+Wire Wire Line
+	2150 6450 2250 6450
+Wire Wire Line
+	2150 6550 2250 6550
+Wire Wire Line
+	2150 6650 2250 6650
+Text GLabel 2250 4750 2    50   Input ~ 0
+GND
+Text GLabel 2250 4850 2    50   Input ~ 0
+Vcc33
+Text GLabel 2250 5100 2    50   Output ~ 0
+MA[0..11]
+Text GLabel 5100 7150 0    50   Input ~ 0
+MA[0..11]
+Text GLabel 1100 4900 0    50   Input ~ 0
+A[0..15]
+Text GLabel 1100 5100 0    50   Input ~ 0
+PHI2
+Wire Wire Line
+	5100 5400 5000 5400
+Wire Wire Line
+	5100 5550 5000 5550
+Text GLabel 5000 5400 0    50   Input ~ 0
+IOR
+Text GLabel 5000 5550 0    50   Input ~ 0
+IOW
+Text GLabel 1100 6400 0    50   Output ~ 0
+IOR
+Text GLabel 1100 6300 0    50   Output ~ 0
+IOW
+Text GLabel 2250 6550 2    50   Output ~ 0
+FDC_EN
+Text GLabel 4950 5100 0    50   Input ~ 0
+FDC_EN
+Wire Wire Line
+	4950 5100 5100 5100
+Wire Wire Line
+	5100 4950 5000 4950
+Wire Wire Line
+	6150 4950 6250 4950
+Wire Wire Line
+	6150 5050 6250 5050
+Wire Wire Line
+	6150 5200 6250 5200
+Wire Wire Line
+	6150 5300 6250 5300
+Text GLabel 6250 4950 2    50   Input ~ 0
+IDE_LDR
+Text GLabel 6250 5050 2    50   Input ~ 0
+IDE_UDR
+Text GLabel 6250 5200 2    50   Input ~ 0
+IDE_LDW
+Text GLabel 6250 5300 2    50   Input ~ 0
+IDE_UDW
+Text GLabel 1100 6900 0    50   Output ~ 0
+IDE_LDR
+Text GLabel 1100 7000 0    50   Output ~ 0
+IDE_UDR
+Text GLabel 1100 6700 0    50   Output ~ 0
+IDE_LDW
+Text GLabel 1100 6800 0    50   Output ~ 0
+IDE_UDW
+Text GLabel 2250 5400 2    50   Output ~ 0
+~OE
+Text GLabel 1100 5250 0    50   Input ~ 0
+RW
+Wire Wire Line
+	6050 6950 6150 6950
+Wire Wire Line
+	6050 7050 6150 7050
+Wire Wire Line
+	6050 7250 6150 7250
+Wire Wire Line
+	5200 7300 5100 7300
+Text GLabel 5100 7300 0    50   Input ~ 0
+RW
+Text GLabel 1100 5950 0    50   Output ~ 0
+RAS
+Text GLabel 1100 6050 0    50   Output ~ 0
+CAS
+Text GLabel 6150 7050 2    50   Input ~ 0
+RAS
+Text GLabel 6150 6950 2    50   Input ~ 0
+CAS
+Text GLabel 2250 6050 2    50   Output ~ 0
+ROM_EN
+Text GLabel 6150 7250 2    50   Input ~ 0
+ROM_EN
+Wire Wire Line
+	6150 5500 6250 5500
+Wire Wire Line
+	6150 5600 6250 5600
+Text GLabel 1100 6500 0    50   Output ~ 0
+IDE_CS0
+Text GLabel 1100 6600 0    50   Output ~ 0
+IDE_CS1
+Text GLabel 6250 5500 2    50   Input ~ 0
+IDE_CS0
+Text GLabel 6250 5600 2    50   Input ~ 0
+IDE_CS1
 Wire Bus Line
 	3850 3250 3850 3600
 Wire Bus Line

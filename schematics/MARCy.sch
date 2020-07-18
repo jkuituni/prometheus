@@ -450,7 +450,7 @@ Wire Wire Line
 	2300 3400 2550 3400
 Wire Wire Line
 	2300 3550 2600 3550
-Text HLabel 2300 3700 0    50   Input ~ 0
+Text HLabel 2300 3700 0    50   Output ~ 0
 IDE_EN
 Wire Wire Line
 	3350 3650 2850 3650

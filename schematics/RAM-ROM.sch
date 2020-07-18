@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -36,8 +36,6 @@ Wire Wire Line
 Connection ~ 7300 3650
 Wire Wire Line
 	7300 3650 7500 3650
-Text GLabel 6600 3200 0    50   Input ~ 10
-ROM_EN
 Wire Wire Line
 	7100 3200 6600 3200
 Entry Wire Line
@@ -148,12 +146,6 @@ Entry Wire Line
 	2500 2900 2600 2800
 Entry Wire Line
 	2500 3000 2600 2900
-Text GLabel 2200 3300 0    50   Input ~ 10
-RW
-Text GLabel 2200 3150 0    50   Input ~ 10
-RAS
-Text GLabel 2200 3000 0    50   Input ~ 10
-CAS
 Wire Wire Line
 	2300 3200 2300 3150
 Wire Wire Line
@@ -409,4 +401,12 @@ Wire Bus Line
 	6800 1600 6800 2900
 Wire Bus Line
 	2500 1750 2500 3000
+Text HLabel 2200 3000 0    50   Input ~ 0
+CAS
+Text HLabel 2200 3150 0    50   Input ~ 0
+RAS
+Text HLabel 2200 3300 0    50   Input ~ 0
+R~W
+Text HLabel 6600 3200 0    50   Input ~ 0
+ROM_EN
 $EndSCHEMATC

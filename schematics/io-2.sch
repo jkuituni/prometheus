@@ -259,8 +259,6 @@ Wire Wire Line
 Connection ~ 9650 2050
 Wire Wire Line
 	9650 2050 9650 1850
-Text GLabel 9500 2950 2    50   Input ~ 0
-IDE_CS0
 Wire Wire Line
 	9500 3050 9350 3050
 Text GLabel 9700 2350 2    50   Output ~ 0
@@ -754,8 +752,6 @@ Wire Wire Line
 Connection ~ 9000 3350
 Wire Wire Line
 	9000 3350 9350 3350
-Text GLabel 9500 3050 2    50   Input ~ 0
-IDE_CS1
 Wire Wire Line
 	9350 2950 9500 2950
 Wire Wire Line
@@ -1278,4 +1274,8 @@ Wire Bus Line
 	5300 2650 5300 3950
 Text Notes 550  5000 0    50   ~ 0
 This is active high! >>>
+Text HLabel 9500 2950 2    50   Input ~ 0
+IDE_CS0
+Text HLabel 9500 3050 2    50   Input ~ 0
+IDE_CS1
 $EndSCHEMATC
