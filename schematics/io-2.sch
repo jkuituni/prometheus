@@ -502,7 +502,7 @@ Entry Wire Line
 Entry Wire Line
 	1850 5950 1950 5850
 Text GLabel 1850 5800 0    50   Input ~ 10
-A[0..23]
+A[0..15]
 Wire Wire Line
 	1600 5600 1450 5600
 Wire Wire Line
@@ -580,11 +580,11 @@ D5
 Text Label 2000 6450 0    50   ~ 0
 D6
 Text GLabel 8500 6100 2    50   Output ~ 10
-A[0..23]
+A[0..15]
 Text GLabel 8500 6300 2    50   BiDi ~ 10
 D[0..7]
 Text HLabel 8250 6100 0    50   Input ~ 0
-A[0..23]
+A[0..15]
 Text HLabel 8250 6300 0    50   BiDi ~ 0
 D[0..7]
 Wire Wire Line

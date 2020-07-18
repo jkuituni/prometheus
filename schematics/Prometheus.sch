@@ -146,7 +146,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2150 1900 2150
 Text GLabel 950  5650 0    50   Input ~ 0
-A[0..23]
+A[0..15]
 Wire Wire Line
 	1050 5650 950  5650
 Text GLabel 950  5800 0    50   BiDi ~ 0
@@ -162,7 +162,7 @@ F2 "A[0..15]" I L 1050 5650 50
 F3 "D[0..7]" B L 1050 5800 50 
 $EndSheet
 $Sheet
-S 2350 5450 650  600 
+S 850  3600 650  600 
 U 5F475375
 F0 "I/O 1" 50
 F1 "io-1.sch" 50
@@ -172,21 +172,21 @@ S 5100 4400 1050 1700
 U 5F47C633
 F0 "I/O 2" 50
 F1 "io-2.sch" 50
-F2 "A[0..23]" I L 5100 4550 50 
-F3 "D[0..7]" B L 5100 4700 50 
-F4 "IRQ" O L 5100 4850 50 
-F5 "FDC_EN" I L 5100 5100 50 
-F6 "R~W" I L 5100 5250 50 
-F7 "Vcc" I R 6150 4700 50 
-F8 "GND" I R 6150 4550 50 
-F9 "IOR" I L 5100 5400 50 
-F10 "IOW" I L 5100 5550 50 
-F11 "RESET" I L 5100 5700 50 
-F12 "IDE_LDR" I R 6150 4950 50 
-F13 "IDE_LDW" I R 6150 5200 50 
-F14 "IDE_UDR" I R 6150 5050 50 
-F15 "IDE_UDW" I R 6150 5300 50 
-F16 "IRQ_HIGH" O L 5100 4950 50 
+F2 "D[0..7]" B L 5100 4700 50 
+F3 "IRQ" O L 5100 4850 50 
+F4 "FDC_EN" I L 5100 5100 50 
+F5 "R~W" I L 5100 5250 50 
+F6 "Vcc" I R 6150 4700 50 
+F7 "GND" I R 6150 4550 50 
+F8 "IOR" I L 5100 5400 50 
+F9 "IOW" I L 5100 5550 50 
+F10 "RESET" I L 5100 5700 50 
+F11 "IDE_LDR" I R 6150 4950 50 
+F12 "IDE_LDW" I R 6150 5200 50 
+F13 "IDE_UDR" I R 6150 5050 50 
+F14 "IDE_UDW" I R 6150 5300 50 
+F15 "IRQ_HIGH" O L 5100 4950 50 
+F16 "A[0..15]" I L 5100 4550 50 
 $EndSheet
 $Sheet
 S 1150 6850 600  500 
@@ -195,7 +195,7 @@ F0 "MARCy Controller" 50
 F1 "MARCy.sch" 50
 $EndSheet
 $Sheet
-S 2500 6300 650  550 
+S 3250 4400 650  550 
 U 5F47D036
 F0 "RAM & ROM" 50
 F1 "RAM-ROM.sch" 50
@@ -247,7 +247,7 @@ F 3 "" H 8650 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7600 4200 0    50   Output ~ 0
-A[0..23]
+A[0..15]
 Text GLabel 9200 3600 2    50   Input ~ 0
 PHI2
 NoConn ~ 7950 3400
@@ -669,7 +669,7 @@ Wire Bus Line
 Wire Bus Line
 	3700 3150 3600 3150
 Text GLabel 3600 3150 0    50   Input ~ 0
-A[0..23]
+A[0..15]
 Text GLabel 5200 3150 2    50   BiDi ~ 0
 D[0..7]
 Wire Wire Line
@@ -761,7 +761,7 @@ D6
 Text Label 4900 3050 0    50   ~ 0
 D7
 $Sheet
-S 3600 6300 700  550 
+S 5550 6700 700  550 
 U 5F16299B
 F0 "Audio" 50
 F1 "audio.sch" 50
@@ -807,7 +807,7 @@ GND
 Text GLabel 6250 4700 2    50   Input ~ 0
 Vcc
 Text GLabel 5000 4550 0    50   Output ~ 0
-A[0..23]
+A[0..15]
 Text GLabel 5000 4850 0    50   Input ~ 0
 IRQ
 Text GLabel 5000 5250 0    50   Output ~ 0
