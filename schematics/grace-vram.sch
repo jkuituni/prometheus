@@ -507,50 +507,40 @@ F 3 "~" H 9950 3500 50  0001 C CNN
 	1    9950 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 8900 4000 3    50   Input ~ 10
+Text GLabel 9550 4200 2    50   Input ~ 10
 RGBBus
 Entry Wire Line
-	8250 4000 8350 3900
+	8250 4200 8350 4100
 Entry Wire Line
-	8400 4000 8500 3900
+	8400 4200 8500 4100
 Entry Wire Line
-	8550 4000 8650 3900
+	8550 4200 8650 4100
 Entry Wire Line
-	8700 4000 8800 3900
+	8700 4200 8800 4100
 Entry Wire Line
-	8850 4000 8950 3900
+	8850 4200 8950 4100
 Entry Wire Line
-	9000 4000 9100 3900
+	9000 4200 9100 4100
 Entry Wire Line
-	9200 4000 9300 3900
+	9200 4200 9300 4100
 Entry Wire Line
-	9350 4000 9450 3900
-Wire Wire Line
-	8350 3900 8350 3800
+	9350 4200 9450 4100
 Wire Wire Line
 	8350 3800 8200 3800
 Wire Wire Line
 	8200 3800 8200 3650
 Wire Wire Line
-	8500 3900 8500 3800
-Wire Wire Line
 	8500 3800 8450 3800
 Wire Wire Line
 	8450 3800 8450 3650
-Wire Wire Line
-	8650 3900 8650 3750
 Wire Wire Line
 	8650 3750 8700 3750
 Wire Wire Line
 	8700 3750 8700 3650
 Wire Wire Line
-	8800 3900 8800 3800
-Wire Wire Line
 	8800 3800 8950 3800
 Wire Wire Line
 	8950 3800 8950 3650
-Wire Wire Line
-	8950 3900 8950 3850
 Wire Wire Line
 	8950 3850 9050 3850
 Wire Wire Line
@@ -559,8 +549,6 @@ Wire Wire Line
 	9050 3750 9200 3750
 Wire Wire Line
 	9200 3750 9200 3650
-Wire Wire Line
-	9100 3900 9100 3800
 Wire Wire Line
 	9100 3800 9300 3800
 Wire Wire Line
@@ -868,12 +856,43 @@ Wire Wire Line
 	3600 1750 3450 1750
 Wire Bus Line
 	3350 1050 3300 1050
-Text HLabel 3300 1050 0    50   Input ~ 0
+Text HLabel 4300 4750 0    50   Input ~ 0
 RGBBus
+Wire Wire Line
+	8350 3800 8350 4100
+Wire Wire Line
+	8500 3800 8500 4100
+Wire Wire Line
+	8650 3750 8650 4100
+Wire Wire Line
+	8800 3800 8800 4100
+Wire Wire Line
+	8950 3850 8950 4100
+Wire Wire Line
+	9100 3800 9100 4100
+Wire Wire Line
+	9300 3900 9300 4100
+Wire Wire Line
+	9450 3900 9450 4100
+Text GLabel 4650 4750 2    50   Output ~ 10
+RGBBus
+Wire Wire Line
+	4300 4750 4650 4750
+Text GLabel 3300 1050 0    50   Input ~ 10
+RGBBus
+NoConn ~ 3600 1850
+NoConn ~ 2250 1950
+NoConn ~ 2250 2050
+NoConn ~ 2250 2150
+NoConn ~ 2250 2250
+NoConn ~ 2250 2350
+NoConn ~ 2250 2450
+NoConn ~ 2250 2550
+NoConn ~ 2250 2650
 Wire Bus Line
 	3350 1050 3350 1750
 Wire Bus Line
-	8200 4000 9950 4000
+	8250 4200 9550 4200
 Wire Bus Line
 	2500 1100 2500 2000
 Wire Bus Line
