@@ -139,10 +139,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 2400 3150 2400
 Wire Wire Line
-	2650 2450 2650 2650
-Wire Wire Line
-	2650 2450 3350 2450
-Wire Wire Line
 	2700 2550 2700 2800
 Wire Wire Line
 	2700 2550 3350 2550
@@ -414,8 +410,6 @@ Text HLabel 2300 2350 0    50   Output ~ 0
 VIA2_EN
 Text HLabel 2300 2500 0    50   Output ~ 0
 ROM_EN
-Text HLabel 2300 2650 0    50   Output ~ 0
-RAM_EN
 Text HLabel 2300 2800 0    50   Output ~ 0
 UART_EN
 Text HLabel 2300 2950 0    50   Output ~ 0
@@ -436,8 +430,6 @@ Wire Wire Line
 	2300 2350 3100 2350
 Wire Wire Line
 	2300 2500 2600 2500
-Wire Wire Line
-	2300 2650 2650 2650
 Wire Wire Line
 	2300 2800 2700 2800
 Wire Wire Line
