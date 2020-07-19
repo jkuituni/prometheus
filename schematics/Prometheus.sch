@@ -145,27 +145,24 @@ Wire Wire Line
 	8300 4350 8300 4550
 Wire Wire Line
 	8300 4550 8100 4550
-Text GLabel 3850 3700 0    50   Input ~ 0
+Text GLabel 3850 3600 0    50   Input ~ 0
 A[0..15]
 Wire Wire Line
-	3950 3700 3850 3700
-Text GLabel 3850 3850 0    50   BiDi ~ 0
+	3950 3600 3850 3600
+Text GLabel 3850 3750 0    50   BiDi ~ 0
 D[0..7]
 Wire Wire Line
-	3950 3850 3850 3850
+	3950 3750 3850 3750
 $Sheet
-S 3950 3500 850  850 
+S 3950 3500 850  550 
 U 5EF72E92
 F0 "GRACE & VRAM" 50
 F1 "grace-vram.sch" 50
-F2 "A[0..15]" I L 3950 3700 50 
-F3 "D[0..7]" B L 3950 3850 50 
-$EndSheet
-$Sheet
-S 4450 5250 650  600 
-U 5F475375
-F0 "I/O 1" 50
-F1 "io-1.sch" 50
+F2 "A[0..15]" I L 3950 3600 50 
+F3 "D[0..7]" B L 3950 3750 50 
+F4 "GRACE_EN" I L 3950 3900 50 
+F5 "VCC" I R 4800 3700 50 
+F6 "GND" I R 4800 3550 50 
 $EndSheet
 $Sheet
 S 1150 2750 1050 1400
@@ -1036,6 +1033,57 @@ Text GLabel 2300 3950 2    50   Input ~ 0
 IDE_CS1
 Text GLabel 2250 5750 2    50   Output ~ 0
 RTC_EN
+Wire Wire Line
+	3950 3900 3850 3900
+Wire Wire Line
+	4800 3550 4900 3550
+Wire Wire Line
+	4800 3700 4900 3700
+Text GLabel 4900 3550 2    50   Input ~ 0
+GND
+Text GLabel 4900 3700 2    50   Input ~ 0
+Vcc
+Text GLabel 3850 3900 0    50   Input ~ 0
+GRACE_EN
+$Sheet
+S 4450 5250 1300 800 
+U 5F475375
+F0 "I/O 1" 50
+F1 "io-1.sch" 50
+F2 "VCC" I R 5750 5400 50 
+F3 "GND" I R 5750 5300 50 
+F4 "FDC_SIDE" O L 4450 5600 50 
+F5 "FDC_WTREN" I R 5750 5600 50 
+F6 "FDC_DSKCHG" O L 4450 5700 50 
+F7 "FDC_DRVA" I R 5750 5700 50 
+F8 "A[0..15]" I L 4450 5350 50 
+F9 "D[0..7]" B L 4450 5450 50 
+F10 "VIA1_EN" I L 4450 5850 50 
+F11 "VIA2_EN" I L 4450 5950 50 
+F12 "UART_EN" I R 5750 5900 50 
+$EndSheet
+Wire Wire Line
+	4450 5350 4350 5350
+Wire Wire Line
+	4450 5450 4350 5450
+Wire Wire Line
+	4450 5600 4350 5600
+Wire Wire Line
+	4450 5700 4350 5700
+Wire Wire Line
+	4350 5850 4450 5850
+Wire Wire Line
+	4450 5950 4350 5950
+Wire Wire Line
+	5750 5300 5850 5300
+Wire Wire Line
+	5750 5400 5850 5400
+Wire Wire Line
+	5750 5600 5850 5600
+Wire Wire Line
+	5750 5700 5850 5700
+Wire Wire Line
+	5750 5900 5850 5900
 Wire Bus Line
 	5800 2150 5800 2500
 Wire Bus Line
@@ -1048,4 +1096,30 @@ Wire Bus Line
 	10100 1850 10100 2650
 Wire Bus Line
 	8500 1950 8500 3150
+Text GLabel 2250 5850 2    50   Output ~ 0
+VIA1_EN
+Text GLabel 2250 5950 2    50   Output ~ 0
+VIA2_EN
+Text GLabel 4350 5850 0    50   Input ~ 0
+VIA1_EN
+Text GLabel 4350 5950 0    50   Input ~ 0
+VIA2_EN
+Text GLabel 5850 5300 2    50   Input ~ 0
+GND
+Text GLabel 5850 5400 2    50   Input ~ 0
+Vcc
+Text GLabel 4350 5350 0    50   Input ~ 0
+A[0..15]
+Text GLabel 4350 5450 0    50   BiDi ~ 0
+D[0..7]
+Text GLabel 2250 6250 2    50   Output ~ 0
+UART_EN
+Text GLabel 5850 5900 2    50   Input ~ 0
+UART_EN
+Text GLabel 2250 6350 2    50   Output ~ 0
+GRACE_EN
+Text GLabel 2250 6450 2    50   Output ~ 0
+AUDIO_EN
+Text GLabel 2250 6650 2    50   Output ~ 0
+IDE_EN
 $EndSCHEMATC

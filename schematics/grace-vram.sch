@@ -319,8 +319,6 @@ Entry Wire Line
 Entry Wire Line
 	1500 2650 1600 2750
 Entry Wire Line
-	1500 2750 1600 2850
-Entry Wire Line
 	2400 1150 2500 1250
 Entry Wire Line
 	2400 1250 2500 1350
@@ -805,8 +803,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 2750 1750 2750
 Wire Wire Line
-	1600 2850 1750 2850
-Wire Wire Line
 	2250 1150 2400 1150
 Wire Wire Line
 	2250 1250 2400 1250
@@ -856,8 +852,6 @@ Wire Wire Line
 	3600 1750 3450 1750
 Wire Bus Line
 	3350 1050 3300 1050
-Text HLabel 4300 4750 0    50   Input ~ 0
-RGBBus
 Wire Wire Line
 	8350 3800 8350 4100
 Wire Wire Line
@@ -874,13 +868,8 @@ Wire Wire Line
 	9300 3900 9300 4100
 Wire Wire Line
 	9450 3900 9450 4100
-Text GLabel 4650 4750 2    50   Output ~ 10
-RGBBus
-Wire Wire Line
-	4300 4750 4650 4750
 Text GLabel 3300 1050 0    50   Input ~ 10
 RGBBus
-NoConn ~ 3600 1850
 NoConn ~ 2250 1950
 NoConn ~ 2250 2050
 NoConn ~ 2250 2150
@@ -889,6 +878,34 @@ NoConn ~ 2250 2350
 NoConn ~ 2250 2450
 NoConn ~ 2250 2550
 NoConn ~ 2250 2650
+NoConn ~ 1750 2850
+NoConn ~ 3600 1850
+Text HLabel 4800 4850 0    50   Input ~ 0
+VCC
+Text HLabel 4800 5150 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C?
+U 1 1 61DC964A
+P 5000 5000
+F 0 "C?" H 5115 5046 50  0000 L CNN
+F 1 "C" H 5115 4955 50  0000 L CNN
+F 2 "" H 5038 4850 50  0001 C CNN
+F 3 "~" H 5000 5000 50  0001 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 5150 2    50   Input ~ 10
+GND
+Text GLabel 5350 4850 2    50   Input ~ 10
+VCC
+Wire Wire Line
+	4800 4850 5000 4850
+Connection ~ 5000 4850
+Wire Wire Line
+	5000 4850 5350 4850
+Wire Wire Line
+	4800 5150 5000 5150
 Wire Bus Line
 	3350 1050 3350 1750
 Wire Bus Line
@@ -897,4 +914,7 @@ Wire Bus Line
 	2500 1100 2500 2000
 Wire Bus Line
 	1500 1150 1500 2900
+Connection ~ 5000 5150
+Wire Wire Line
+	5000 5150 5350 5150
 $EndSCHEMATC
