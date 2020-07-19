@@ -140,12 +140,6 @@ Entry Wire Line
 	2500 2600 2600 2500
 Entry Wire Line
 	2500 2700 2600 2600
-Entry Wire Line
-	2500 2800 2600 2700
-Entry Wire Line
-	2500 2900 2600 2800
-Entry Wire Line
-	2500 3000 2600 2900
 Wire Wire Line
 	2300 3200 2300 3150
 Wire Wire Line
@@ -223,52 +217,52 @@ Wire Bus Line
 	6800 1600 6750 1600
 Text HLabel 6750 1600 0    50   Input ~ 0
 A[0..15]
-Text GLabel 5500 4300 2    50   Output ~ 10
+Text GLabel 9300 5700 2    50   Output ~ 10
 VCC
-Text GLabel 5500 4600 2    50   Output ~ 10
+Text GLabel 9300 6000 2    50   Output ~ 10
 GND
 $Comp
 L Device:C C?
 U 1 1 616CE492
-P 4450 4450
-F 0 "C?" H 4565 4496 50  0000 L CNN
-F 1 "0.1uF" H 4565 4405 50  0000 L CNN
-F 2 "" H 4488 4300 50  0001 C CNN
-F 3 "~" H 4450 4450 50  0001 C CNN
-	1    4450 4450
+P 8250 5850
+F 0 "C?" H 8365 5896 50  0000 L CNN
+F 1 "0.1uF" H 8365 5805 50  0000 L CNN
+F 2 "" H 8288 5700 50  0001 C CNN
+F 3 "~" H 8250 5850 50  0001 C CNN
+	1    8250 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 616CE8B0
-P 4950 4450
-F 0 "C?" H 5065 4496 50  0000 L CNN
-F 1 "0.1uF" H 5065 4405 50  0000 L CNN
-F 2 "" H 4988 4300 50  0001 C CNN
-F 3 "~" H 4950 4450 50  0001 C CNN
-	1    4950 4450
+P 8750 5850
+F 0 "C?" H 8865 5896 50  0000 L CNN
+F 1 "0.1uF" H 8865 5805 50  0000 L CNN
+F 2 "" H 8788 5700 50  0001 C CNN
+F 3 "~" H 8750 5850 50  0001 C CNN
+	1    8750 5850
 	1    0    0    -1  
 $EndComp
-Text HLabel 4100 4300 0    50   Input ~ 0
+Text HLabel 7900 5700 0    50   Input ~ 0
 VCC
-Text HLabel 4100 4600 0    50   Input ~ 0
+Text HLabel 7900 6000 0    50   Input ~ 0
 GND
 Wire Wire Line
-	4100 4600 4450 4600
-Connection ~ 4450 4600
+	7900 6000 8250 6000
+Connection ~ 8250 6000
 Wire Wire Line
-	4450 4600 4950 4600
-Connection ~ 4950 4600
+	8250 6000 8750 6000
+Connection ~ 8750 6000
 Wire Wire Line
-	4950 4600 5500 4600
+	8750 6000 9300 6000
 Wire Wire Line
-	4100 4300 4450 4300
-Connection ~ 4450 4300
+	7900 5700 8250 5700
+Connection ~ 8250 5700
 Wire Wire Line
-	4450 4300 4950 4300
-Connection ~ 4950 4300
+	8250 5700 8750 5700
+Connection ~ 8750 5700
 Wire Wire Line
-	4950 4300 5500 4300
+	8750 5700 9300 5700
 Text Label 6950 1600 0    50   ~ 0
 A0
 Text Label 6950 1700 0    50   ~ 0
@@ -349,16 +343,8 @@ Wire Wire Line
 	2600 2500 2800 2500
 Wire Wire Line
 	2600 2600 2800 2600
-Wire Wire Line
-	2600 2700 2800 2700
-Wire Wire Line
-	2600 2800 2800 2800
-Wire Wire Line
-	2600 2900 2800 2900
 Wire Bus Line
 	2500 1750 2450 1750
-Text HLabel 2450 1750 0    50   Input ~ 0
-MA[0..11]
 Text Label 2650 1800 0    50   ~ 0
 MA0
 Text Label 2650 1900 0    50   ~ 0
@@ -377,12 +363,6 @@ Text Label 2650 2500 0    50   ~ 0
 MA7
 Text Label 2650 2600 0    50   ~ 0
 MA8
-Text Label 2650 2700 0    50   ~ 0
-MA9
-Text Label 2650 2800 0    50   ~ 0
-MA10
-Text Label 2650 2900 0    50   ~ 0
-MA11
 Wire Wire Line
 	2200 3300 2800 3300
 Wire Wire Line
@@ -393,14 +373,6 @@ Wire Wire Line
 	2650 3000 2650 3100
 Wire Wire Line
 	2300 3100 2650 3100
-Wire Bus Line
-	4500 1700 4500 2550
-Wire Bus Line
-	8150 1450 8150 2250
-Wire Bus Line
-	6800 1600 6800 2900
-Wire Bus Line
-	2500 1750 2500 3000
 Text HLabel 2200 3000 0    50   Input ~ 0
 CAS
 Text HLabel 2200 3150 0    50   Input ~ 0
@@ -409,4 +381,89 @@ Text HLabel 2200 3300 0    50   Input ~ 0
 R~W
 Text HLabel 6600 3200 0    50   Input ~ 0
 ROM_EN
+Text GLabel 2800 2700 0    50   Input ~ 0
+MA9
+Text GLabel 2800 2800 0    50   Input ~ 0
+MA10
+Text GLabel 2800 2900 0    50   Input ~ 0
+MA11
+Text HLabel 8050 4950 0    50   Input ~ 0
+MA[0..11]
+Text GLabel 3600 4350 2    50   Output ~ 0
+MA9
+Text GLabel 3600 4700 2    50   Output ~ 0
+MA10
+Text GLabel 3600 5050 2    50   Output ~ 0
+MA11
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 61A2D8CC
+P 3400 4350
+F 0 "JP?" H 3400 4585 50  0000 C CNN
+F 1 "Jumper_2_Open" H 3400 4494 50  0000 C CNN
+F 2 "" H 3400 4350 50  0001 C CNN
+F 3 "~" H 3400 4350 50  0001 C CNN
+	1    3400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 61A2FC07
+P 3400 4700
+F 0 "JP?" H 3400 4935 50  0000 C CNN
+F 1 "Jumper_2_Open" H 3400 4844 50  0000 C CNN
+F 2 "" H 3400 4700 50  0001 C CNN
+F 3 "~" H 3400 4700 50  0001 C CNN
+	1    3400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 61A300DC
+P 3400 5050
+F 0 "JP?" H 3400 5285 50  0000 C CNN
+F 1 "Jumper_2_Open" H 3400 5194 50  0000 C CNN
+F 2 "" H 3400 5050 50  0001 C CNN
+F 3 "~" H 3400 5050 50  0001 C CNN
+	1    3400 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4350 3000 4350
+Wire Wire Line
+	3200 4700 3000 4700
+Wire Wire Line
+	3200 5050 3000 5050
+Entry Wire Line
+	3000 4350 2900 4250
+Entry Wire Line
+	3000 4700 2900 4600
+Entry Wire Line
+	3000 5050 2900 4950
+Wire Bus Line
+	2900 4150 2850 4150
+Wire Wire Line
+	8050 4950 8200 4950
+Wire Bus Line
+	2900 4150 2900 4950
+Wire Bus Line
+	4500 1700 4500 2550
+Wire Bus Line
+	8150 1450 8150 2250
+Wire Bus Line
+	2500 1750 2500 2700
+Wire Bus Line
+	6800 1600 6800 2900
+Text GLabel 8200 4950 2    50   Output ~ 0
+MA[0..11]
+Text GLabel 2850 4150 0    50   Input ~ 0
+MA[0..11]
+Text GLabel 2450 1750 0    50   Input ~ 0
+MA[0..11]
+Text Label 3050 4350 0    50   ~ 0
+MA9
+Text Label 3050 4700 0    50   ~ 0
+MA10
+Text Label 3050 5050 0    50   ~ 0
+MA11
 $EndSCHEMATC
