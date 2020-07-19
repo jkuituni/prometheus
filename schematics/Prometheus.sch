@@ -780,10 +780,19 @@ D6
 Text Label 6850 1950 0    50   ~ 0
 D7
 $Sheet
-S 3600 1850 700  550 
+S 3600 1850 850  1350
 U 5F16299B
 F0 "Audio" 50
 F1 "audio.sch" 50
+F2 "AUDIO_EN" I R 4450 2550 50 
+F3 "R~W" I L 3600 2400 50 
+F4 "~IRQ" O L 3600 2250 50 
+F5 "RESET" I L 3600 2550 50 
+F6 "PHI2" I L 3600 2700 50 
+F7 "RAS" I L 3600 2900 50 
+F8 "CAS" I L 3600 3050 50 
+F9 "VCC" I R 4450 2050 50 
+F10 "GND" I R 4450 1950 50 
 $EndSheet
 Text GLabel 10000 1650 2    50   Output ~ 0
 RW
@@ -1084,18 +1093,6 @@ Wire Wire Line
 	5750 5700 5850 5700
 Wire Wire Line
 	5750 5900 5850 5900
-Wire Bus Line
-	5800 2150 5800 2500
-Wire Bus Line
-	7050 2050 7050 2500
-Wire Bus Line
-	5650 1650 5650 2050
-Wire Bus Line
-	9950 2650 9950 3150
-Wire Bus Line
-	10100 1850 10100 2650
-Wire Bus Line
-	8500 1950 8500 3150
 Text GLabel 2250 5850 2    50   Output ~ 0
 VIA1_EN
 Text GLabel 2250 5950 2    50   Output ~ 0
@@ -1122,4 +1119,52 @@ Text GLabel 2250 6450 2    50   Output ~ 0
 AUDIO_EN
 Text GLabel 2250 6650 2    50   Output ~ 0
 IDE_EN
+Wire Wire Line
+	4450 1950 4550 1950
+Wire Wire Line
+	4450 2050 4550 2050
+Wire Wire Line
+	4450 2550 4550 2550
+Wire Wire Line
+	3600 2250 3500 2250
+Wire Wire Line
+	3600 2400 3500 2400
+Wire Wire Line
+	3600 2550 3500 2550
+Wire Wire Line
+	3600 2700 3500 2700
+Wire Wire Line
+	3600 2900 3500 2900
+Wire Wire Line
+	3600 3050 3500 3050
+Wire Bus Line
+	5800 2150 5800 2500
+Wire Bus Line
+	7050 2050 7050 2500
+Wire Bus Line
+	5650 1650 5650 2050
+Wire Bus Line
+	9950 2650 9950 3150
+Wire Bus Line
+	10100 1850 10100 2650
+Wire Bus Line
+	8500 1950 8500 3150
+Text GLabel 4550 1950 2    50   Input ~ 0
+GND
+Text GLabel 4550 2050 2    50   Input ~ 0
+Vcc
+Text GLabel 3500 2400 0    50   Input ~ 0
+RW
+Text GLabel 3500 2250 0    50   Output ~ 0
+IRQ
+Text GLabel 3500 2700 0    50   Input ~ 0
+PHI2
+Text GLabel 3500 2550 0    50   Input ~ 0
+RES
+Text GLabel 4550 2550 2    50   Input ~ 0
+AUDIO_EN
+Text GLabel 3500 3050 0    50   Input ~ 0
+CAS
+Text GLabel 3500 2900 0    50   Input ~ 0
+RAS
 $EndSCHEMATC

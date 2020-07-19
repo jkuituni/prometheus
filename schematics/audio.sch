@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -69,7 +69,7 @@ Wire Wire Line
 	5450 4050 5300 4050
 Wire Wire Line
 	5450 4150 5300 4150
-Text HLabel 5300 3950 0    50   Input ~ 0
+Text HLabel 5300 3950 0    50   Output ~ 0
 ~IRQ
 Text HLabel 5300 4150 0    50   Input ~ 0
 RESET
@@ -90,5 +90,34 @@ CAS
 Wire Wire Line
 	6350 2350 6500 2350
 Text GLabel 6500 2350 2    50   Input ~ 0
-Vcc
+VCC
+Text GLabel 10050 4650 2    50   Output ~ 0
+GND
+Text GLabel 10050 4350 2    50   Output ~ 0
+VCC
+$Comp
+L Device:C C?
+U 1 1 630269F5
+P 9800 4500
+F 0 "C?" H 9915 4546 50  0000 L CNN
+F 1 "0.1uF" H 9915 4455 50  0000 L CNN
+F 2 "" H 9838 4350 50  0001 C CNN
+F 3 "~" H 9800 4500 50  0001 C CNN
+	1    9800 4500
+	1    0    0    -1  
+$EndComp
+Text HLabel 9500 4350 0    50   Input ~ 0
+VCC
+Text HLabel 9500 4650 0    50   Input ~ 0
+GND
+Wire Wire Line
+	9500 4650 9800 4650
+Connection ~ 9800 4650
+Wire Wire Line
+	9800 4650 10050 4650
+Wire Wire Line
+	9500 4350 9800 4350
+Connection ~ 9800 4350
+Wire Wire Line
+	9800 4350 10050 4350
 $EndSCHEMATC
