@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -271,8 +271,6 @@ Wire Wire Line
 	4300 5250 4300 5450
 Wire Wire Line
 	4950 5250 4300 5250
-Text GLabel 4150 5450 0    50   Input ~ 0
-FDC_DSKCHG
 Wire Wire Line
 	4150 5350 4250 5350
 Wire Wire Line
@@ -294,8 +292,6 @@ Wire Wire Line
 	5550 5000 4250 5000
 Wire Wire Line
 	5550 5550 5550 5000
-Text GLabel 4150 5350 0    50   Input ~ 0
-FDC_DRVA
 Wire Wire Line
 	4200 5100 4200 5250
 Wire Wire Line
@@ -304,16 +300,12 @@ Wire Wire Line
 	5500 5350 5500 5100
 Wire Wire Line
 	5450 5350 5500 5350
-Text GLabel 4150 5250 0    50   Input ~ 0
-FDC_MTREN
 Wire Wire Line
 	4700 5150 4150 5150
 Wire Wire Line
 	4700 5450 4700 5150
 Wire Wire Line
 	4950 5450 4700 5450
-Text GLabel 4150 5150 0    50   Input ~ 0
-FDC_SIDE
 Wire Wire Line
 	2600 6950 2950 6950
 Wire Wire Line
@@ -1236,6 +1228,20 @@ Wire Wire Line
 	5800 4900 5800 6150
 Text HLabel 1550 5050 0    50   Output ~ 0
 IRQ_HIGH
+Text Notes 550  5000 0    50   ~ 0
+This is active high! >>>
+Text HLabel 9500 2950 2    50   Input ~ 0
+IDE_CS0
+Text HLabel 9500 3050 2    50   Input ~ 0
+IDE_CS1
+Text HLabel 4150 5150 0    50   Input ~ 0
+FDC_SIDE
+Text HLabel 4150 5250 0    50   Output ~ 0
+FDC_MTREN
+Text HLabel 4150 5350 0    50   Input ~ 0
+FDC_DRVA
+Text HLabel 4150 5450 0    50   Output ~ 0
+FDC_DSKCHG
 Wire Wire Line
 	8350 2850 8850 2850
 Wire Wire Line
@@ -1272,10 +1278,4 @@ Wire Bus Line
 	5700 1050 5700 1950
 Wire Bus Line
 	5300 2650 5300 3950
-Text Notes 550  5000 0    50   ~ 0
-This is active high! >>>
-Text HLabel 9500 2950 2    50   Input ~ 0
-IDE_CS0
-Text HLabel 9500 3050 2    50   Input ~ 0
-IDE_CS1
 $EndSCHEMATC

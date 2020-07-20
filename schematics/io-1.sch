@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -1027,9 +1027,9 @@ Text HLabel 2800 2950 0    50   Output ~ 0
 FDC_SIDE
 Text HLabel 2850 3050 0    50   Input ~ 0
 FDC_WTREN
-Text HLabel 2900 3250 0    50   Output ~ 0
+Text HLabel 2900 3250 0    50   Input ~ 0
 FDC_DSKCHG
-Text HLabel 2800 3150 0    50   Input ~ 0
+Text HLabel 2800 3150 0    50   Output ~ 0
 FDC_DRVA
 Text HLabel 6800 700  0    50   Input ~ 0
 A[0..15]
@@ -1257,6 +1257,8 @@ Text Label 3300 6850 0    50   ~ 0
 A0
 Text Label 3300 6950 0    50   ~ 0
 A1
+Text HLabel 2950 5750 0    50   Input ~ 0
+UART_EN
 Wire Bus Line
 	3150 6850 3150 7100
 Wire Bus Line
@@ -1269,6 +1271,4 @@ Wire Bus Line
 	7300 2800 7300 3550
 Wire Bus Line
 	3950 2650 3950 3400
-Text HLabel 2950 5750 0    50   Input ~ 0
-UART_EN
 $EndSCHEMATC
