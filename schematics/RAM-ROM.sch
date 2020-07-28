@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -18,7 +18,7 @@ VCC
 Wire Wire Line
 	7500 1400 7500 1000
 Wire Wire Line
-	7500 1000 7200 1000
+	7500 1000 7300 1000
 Text GLabel 7200 3650 0    50   Input ~ 10
 GND
 Wire Wire Line
@@ -35,7 +35,7 @@ Wire Wire Line
 	7000 3300 7100 3300
 Connection ~ 7300 3650
 Wire Wire Line
-	7300 3650 7500 3650
+	7300 3650 7350 3650
 Wire Wire Line
 	7100 3200 6600 3200
 Entry Wire Line
@@ -444,16 +444,6 @@ Wire Bus Line
 	2900 4150 2850 4150
 Wire Wire Line
 	8050 4950 8200 4950
-Wire Bus Line
-	2900 4150 2900 4950
-Wire Bus Line
-	4500 1700 4500 2550
-Wire Bus Line
-	8150 1450 8150 2250
-Wire Bus Line
-	2500 1750 2500 2700
-Wire Bus Line
-	6800 1600 6800 2900
 Text GLabel 8200 4950 2    50   Output ~ 0
 MA[0..11]
 Text GLabel 2850 4150 0    50   Input ~ 0
@@ -466,4 +456,42 @@ Text Label 3050 4700 0    50   ~ 0
 MA10
 Text Label 3050 5050 0    50   ~ 0
 MA11
+Wire Wire Line
+	3350 3450 3350 3800
+Wire Wire Line
+	3350 3800 3450 3800
+Wire Wire Line
+	7350 3800 7350 3650
+Connection ~ 7350 3650
+Wire Wire Line
+	7350 3650 7500 3650
+Wire Wire Line
+	3450 3450 3450 3800
+Connection ~ 3450 3800
+Wire Wire Line
+	3450 3800 7350 3800
+Wire Wire Line
+	3450 1650 3450 1150
+Wire Wire Line
+	3450 1150 7300 1150
+Wire Wire Line
+	7300 1150 7300 1000
+Connection ~ 7300 1000
+Wire Wire Line
+	7300 1000 7200 1000
+Wire Wire Line
+	3350 1150 3450 1150
+Connection ~ 3450 1150
+Wire Wire Line
+	3350 1150 3350 1650
+Wire Bus Line
+	2900 4150 2900 4950
+Wire Bus Line
+	4500 1700 4500 2550
+Wire Bus Line
+	8150 1450 8150 2250
+Wire Bus Line
+	2500 1750 2500 2700
+Wire Bus Line
+	6800 1600 6800 2900
 $EndSCHEMATC

@@ -1259,6 +1259,7 @@ Text Label 3300 6950 0    50   ~ 0
 A1
 Text HLabel 2950 5750 0    50   Input ~ 0
 UART_EN
+NoConn ~ 3450 6250
 Wire Bus Line
 	3150 6850 3150 7100
 Wire Bus Line
