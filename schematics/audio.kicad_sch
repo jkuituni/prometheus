@@ -1470,19 +1470,19 @@
 		(uuid "164e7bdb-b894-428d-9025-ba5d3f181b7d")
 	)
 	(junction
-		(at 71.12 36.83)
+		(at 78.74 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24d395a5-60a2-451d-b0c4-43838610ac40")
 	)
 	(junction
-		(at 71.12 85.09)
+		(at 78.74 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c833606-f33e-4134-b802-2bdf6429bf48")
 	)
 	(junction
-		(at 248.92 118.11)
+		(at 29.21 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7293fc1a-32c8-4744-b794-08a4333cb208")
@@ -1500,16 +1500,16 @@
 		(uuid "930311b1-e1d7-4b2e-a091-b9a060e348c3")
 	)
 	(junction
-		(at 248.92 110.49)
+		(at 29.21 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94f4c106-109b-459e-ad7d-0a44b5843005")
 	)
 	(junction
-		(at 106.68 36.83)
+		(at 114.3 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a59a567e-3bbd-4283-a135-a33d279f5352")
+		(uuid "c6296841-e074-48c9-bfe4-c1a4f8c756df")
 	)
 	(wire
 		(pts
@@ -1533,7 +1533,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 85.09) (xy 106.68 36.83)
+			(xy 114.3 85.09) (xy 114.3 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1553,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 85.09) (xy 106.68 85.09)
+			(xy 78.74 85.09) (xy 114.3 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1583,7 +1583,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 36.83) (xy 33.02 36.83)
+			(xy 78.74 36.83) (xy 40.64 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1633,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 36.83) (xy 106.68 36.83)
+			(xy 163.83 36.83) (xy 114.3 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1663,23 +1663,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 85.09) (xy 71.12 88.9)
+			(xy 78.74 85.09) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "683f82d0-d9f3-4517-bacf-deda7cbb29e4")
-	)
-	(wire
-		(pts
-			(xy 106.68 36.83) (xy 71.12 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be76418-12c4-46c3-b912-f4c6711e07fd")
 	)
 	(wire
 		(pts
@@ -1743,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 110.49) (xy 248.92 110.49)
+			(xy 21.59 16.51) (xy 29.21 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1763,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 36.83) (xy 33.02 49.53)
+			(xy 40.64 36.83) (xy 40.64 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 85.09) (xy 71.12 85.09)
+			(xy 41.91 85.09) (xy 78.74 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1823,7 +1813,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 118.11) (xy 248.92 118.11)
+			(xy 21.59 24.13) (xy 29.21 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1833,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 36.83) (xy 71.12 49.53)
+			(xy 78.74 36.83) (xy 78.74 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1853,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 118.11) (xy 255.27 118.11)
+			(xy 29.21 24.13) (xy 35.56 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1883,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 110.49) (xy 255.27 110.49)
+			(xy 29.21 16.51) (xy 35.56 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1923,6 +1913,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 36.83) (xy 114.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77c6c58-4ec8-4671-b9b9-093e63d3fb35")
+	)
+	(wire
+		(pts
 			(xy 161.29 105.41) (xy 165.1 105.41)
 		)
 		(stroke
@@ -1933,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 88.9) (xy 34.29 85.09)
+			(xy 41.91 88.9) (xy 41.91 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1979,7 +1979,7 @@
 	)
 	(global_label "GND"
 		(shape output)
-		(at 255.27 118.11 0)
+		(at 35.56 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1988,7 +1988,7 @@
 		)
 		(uuid "048c9546-20cc-4cca-8649-c77427692038")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.27 118.11 0)
+			(at 35.56 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +2019,7 @@
 	)
 	(global_label "VCC"
 		(shape output)
-		(at 255.27 110.49 0)
+		(at 35.56 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2028,7 +2028,7 @@
 		)
 		(uuid "64b99921-ee49-4577-b2cb-54a765017c4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.27 110.49 0)
+			(at 35.56 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2060,7 +2060,6 @@
 	(hierarchical_label "R~{W}"
 		(shape input)
 		(at 165.1 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2072,7 +2071,6 @@
 	(hierarchical_label "AUDIO_EN"
 		(shape input)
 		(at 165.1 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2083,8 +2081,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 241.3 110.49 180)
-		(fields_autoplaced yes)
+		(at 21.59 16.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2096,7 +2093,6 @@
 	(hierarchical_label "~{IRQ}"
 		(shape output)
 		(at 134.62 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2108,7 +2104,6 @@
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 134.62 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2119,8 +2114,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 241.3 118.11 180)
-		(fields_autoplaced yes)
+		(at 21.59 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2132,7 +2126,6 @@
 	(hierarchical_label "CAS"
 		(shape input)
 		(at 134.62 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2144,7 +2137,6 @@
 	(hierarchical_label "RAS"
 		(shape input)
 		(at 134.62 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2156,7 +2148,6 @@
 	(hierarchical_label "PHI2"
 		(shape input)
 		(at 134.62 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2490,7 +2481,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 248.92 114.3 0)
+		(at 29.21 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2498,7 +2489,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000630269f5")
 		(property "Reference" "C11"
-			(at 251.841 113.1316 0)
+			(at 32.131 19.1516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2498,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 251.841 115.443 0)
+			(at 32.131 21.463 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,8 +2506,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 249.8852 118.11 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+			(at 30.1752 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 114.3 0)
+			(at 29.21 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 114.3 0)
+			(at 29.21 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2550,7 @@
 	)
 	(symbol
 		(lib_id "dram:41464")
-		(at 33.02 73.66 0)
+		(at 40.64 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2567,7 +2558,7 @@
 		(dnp no)
 		(uuid "26ea4e81-a088-4b6b-84d9-eb6a9dc717cf")
 		(property "Reference" "U19"
-			(at 38.1 45.7231 0)
+			(at 45.72 45.7231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2566,7 @@
 			)
 		)
 		(property "Value" "41464"
-			(at 38.1 48.26 0)
+			(at 45.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2574,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
-			(at 35.56 73.66 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2583,7 @@
 			)
 		)
 		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/DRAM/NEC%20D41464%2064k%20x%204bit%20DRAM%20Data%20Sheet.pdf"
-			(at 35.56 73.66 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2592,7 @@
 			)
 		)
 		(property "Description" "64Kx4 DRAM"
-			(at 33.02 73.66 0)
+			(at 40.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2601,7 @@
 			)
 		)
 		(property "Package" "DIP-18"
-			(at 33.02 73.66 0)
+			(at 40.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2610,7 @@
 			)
 		)
 		(property "MPN" "41464"
-			(at 33.02 73.66 0)
+			(at 40.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2619,7 @@
 			)
 		)
 		(property "Inv_ID" "56"
-			(at 33.02 73.66 0)
+			(at 40.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2692,7 @@
 	)
 	(symbol
 		(lib_id "dram:41464")
-		(at 71.12 113.03 0)
+		(at 78.74 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2709,7 +2700,7 @@
 		(dnp no)
 		(uuid "7ebebefb-84be-40f4-9991-0c5a9e372858")
 		(property "Reference" "U18"
-			(at 76.2 85.0931 0)
+			(at 83.82 85.0931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2708,7 @@
 			)
 		)
 		(property "Value" "41464"
-			(at 76.2 87.63 0)
+			(at 83.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2716,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
-			(at 73.66 113.03 0)
+			(at 81.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2734,7 +2725,7 @@
 			)
 		)
 		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/DRAM/NEC%20D41464%2064k%20x%204bit%20DRAM%20Data%20Sheet.pdf"
-			(at 73.66 113.03 0)
+			(at 81.28 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2734,7 @@
 			)
 		)
 		(property "Description" "64Kx4 DRAM"
-			(at 71.12 113.03 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2743,7 @@
 			)
 		)
 		(property "Package" "DIP-18"
-			(at 71.12 113.03 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2752,7 @@
 			)
 		)
 		(property "MPN" "41464"
-			(at 71.12 113.03 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2761,7 @@
 			)
 		)
 		(property "Inv_ID" "56"
-			(at 71.12 113.03 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +2834,7 @@
 	)
 	(symbol
 		(lib_id "dram:41464")
-		(at 34.29 113.03 0)
+		(at 41.91 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2851,7 +2842,7 @@
 		(dnp no)
 		(uuid "b427d752-1b1a-4771-8e5f-0ef808e04550")
 		(property "Reference" "U20"
-			(at 39.37 85.0931 0)
+			(at 46.99 85.0931 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2850,7 @@
 			)
 		)
 		(property "Value" "41464"
-			(at 39.37 87.63 0)
+			(at 46.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +2858,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
-			(at 36.83 113.03 0)
+			(at 44.45 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +2867,7 @@
 			)
 		)
 		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/DRAM/NEC%20D41464%2064k%20x%204bit%20DRAM%20Data%20Sheet.pdf"
-			(at 36.83 113.03 0)
+			(at 44.45 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,7 +2876,7 @@
 			)
 		)
 		(property "Description" "64Kx4 DRAM"
-			(at 34.29 113.03 0)
+			(at 41.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2885,7 @@
 			)
 		)
 		(property "Package" "DIP-18"
-			(at 34.29 113.03 0)
+			(at 41.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,7 +2894,7 @@
 			)
 		)
 		(property "MPN" "41464"
-			(at 34.29 113.03 0)
+			(at 41.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2903,7 @@
 			)
 		)
 		(property "Inv_ID" "56"
-			(at 34.29 113.03 0)
+			(at 41.91 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2976,7 @@
 	)
 	(symbol
 		(lib_id "dram:41464")
-		(at 71.12 73.66 0)
+		(at 78.74 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2993,7 +2984,7 @@
 		(dnp no)
 		(uuid "c5c652a8-ecb8-45a0-ade6-e080e7b5c8f3")
 		(property "Reference" "U17"
-			(at 76.2 45.7231 0)
+			(at 83.82 45.7231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +2992,7 @@
 			)
 		)
 		(property "Value" "41464"
-			(at 76.2 48.26 0)
+			(at 83.82 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3000,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
-			(at 73.66 73.66 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3009,7 @@
 			)
 		)
 		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/DRAM/NEC%20D41464%2064k%20x%204bit%20DRAM%20Data%20Sheet.pdf"
-			(at 73.66 73.66 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3018,7 @@
 			)
 		)
 		(property "Description" "64Kx4 DRAM"
-			(at 71.12 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3027,7 @@
 			)
 		)
 		(property "Package" "DIP-18"
-			(at 71.12 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3036,7 @@
 			)
 		)
 		(property "MPN" "41464"
-			(at 71.12 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3045,7 @@
 			)
 		)
 		(property "Inv_ID" "56"
-			(at 71.12 73.66 0)
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

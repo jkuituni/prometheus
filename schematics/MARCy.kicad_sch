@@ -6994,7 +6994,6 @@
 	)
 	(label "A9"
 		(at 135.89 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7005,7 +7004,6 @@
 	)
 	(label "A6"
 		(at 135.89 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7016,7 +7014,6 @@
 	)
 	(label "A14"
 		(at 135.89 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7027,7 +7024,6 @@
 	)
 	(label "A13"
 		(at 135.89 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7038,7 +7034,6 @@
 	)
 	(label "A1"
 		(at 135.89 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7049,7 +7044,6 @@
 	)
 	(label "A3"
 		(at 135.89 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7060,7 +7054,6 @@
 	)
 	(label "A0"
 		(at 135.89 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7071,7 +7064,6 @@
 	)
 	(label "A11"
 		(at 135.89 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7082,7 +7074,6 @@
 	)
 	(label "A5"
 		(at 135.89 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7093,7 +7084,6 @@
 	)
 	(label "A7"
 		(at 135.89 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7104,7 +7094,6 @@
 	)
 	(label "A4"
 		(at 135.89 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7115,7 +7104,6 @@
 	)
 	(label "A2"
 		(at 135.89 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7126,7 +7114,6 @@
 	)
 	(label "A8"
 		(at 135.89 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7137,7 +7124,6 @@
 	)
 	(label "A15"
 		(at 135.89 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7148,7 +7134,6 @@
 	)
 	(label "A12"
 		(at 135.89 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7159,7 +7144,6 @@
 	)
 	(label "A10"
 		(at 135.89 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7255,7 +7239,6 @@
 	(hierarchical_label "AUDIO_EN"
 		(shape output)
 		(at 58.42 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7267,7 +7250,6 @@
 	(hierarchical_label "IDE_CS1"
 		(shape output)
 		(at 58.42 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7279,7 +7261,6 @@
 	(hierarchical_label "GRACE_EN"
 		(shape output)
 		(at 58.42 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7291,7 +7272,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 27.94 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7303,7 +7283,6 @@
 	(hierarchical_label "~{OE}"
 		(shape output)
 		(at 58.42 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7315,7 +7294,6 @@
 	(hierarchical_label "PHI2"
 		(shape input)
 		(at 58.42 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7327,7 +7305,6 @@
 	(hierarchical_label "RAS"
 		(shape output)
 		(at 58.42 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7339,7 +7316,6 @@
 	(hierarchical_label "Vcc33"
 		(shape input)
 		(at 27.94 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7351,7 +7327,6 @@
 	(hierarchical_label "IDE_CS0"
 		(shape output)
 		(at 58.42 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7363,7 +7338,6 @@
 	(hierarchical_label "UART_EN"
 		(shape output)
 		(at 58.42 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7375,7 +7349,6 @@
 	(hierarchical_label "IOW"
 		(shape output)
 		(at 58.42 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7387,7 +7360,6 @@
 	(hierarchical_label "IDE_LDR"
 		(shape output)
 		(at 58.42 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7399,7 +7371,6 @@
 	(hierarchical_label "IOR"
 		(shape output)
 		(at 58.42 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7411,7 +7382,6 @@
 	(hierarchical_label "FDC_EN"
 		(shape output)
 		(at 58.42 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7423,7 +7393,6 @@
 	(hierarchical_label "ROM_EN"
 		(shape output)
 		(at 58.42 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7435,7 +7404,6 @@
 	(hierarchical_label "IDE_EN"
 		(shape output)
 		(at 58.42 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7447,7 +7415,6 @@
 	(hierarchical_label "CAS"
 		(shape output)
 		(at 58.42 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7459,7 +7426,6 @@
 	(hierarchical_label "IDE_LDW"
 		(shape output)
 		(at 58.42 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7471,7 +7437,6 @@
 	(hierarchical_label "IDE_UDW"
 		(shape output)
 		(at 58.42 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7483,7 +7448,6 @@
 	(hierarchical_label "VIA2_EN"
 		(shape output)
 		(at 58.42 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7495,7 +7459,6 @@
 	(hierarchical_label "VIA1_EN"
 		(shape output)
 		(at 58.42 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7507,7 +7470,6 @@
 	(hierarchical_label "RTC_EN"
 		(shape output)
 		(at 58.42 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7519,7 +7481,6 @@
 	(hierarchical_label "R~{W}"
 		(shape input)
 		(at 58.42 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7531,7 +7492,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 144.78 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7543,7 +7503,6 @@
 	(hierarchical_label "IDE_UDR"
 		(shape output)
 		(at 58.42 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7555,7 +7514,6 @@
 	(hierarchical_label "MA[0..11]"
 		(shape output)
 		(at 143.51 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8055,7 +8013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 36.5252 180.34 0)
 			(effects
 				(font

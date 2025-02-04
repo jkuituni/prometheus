@@ -6271,7 +6271,6 @@
 	)
 	(label "A0"
 		(at 218.44 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6282,7 +6281,6 @@
 	)
 	(label "A8"
 		(at 218.44 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6293,7 +6291,6 @@
 	)
 	(label "A3"
 		(at 218.44 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6304,7 +6301,6 @@
 	)
 	(label "A3"
 		(at 149.86 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6315,7 +6311,6 @@
 	)
 	(label "D2"
 		(at 149.86 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6326,7 +6321,6 @@
 	)
 	(label "D4"
 		(at 173.99 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6337,7 +6331,6 @@
 	)
 	(label "D7"
 		(at 250.19 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6348,7 +6341,6 @@
 	)
 	(label "D7"
 		(at 173.99 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6359,7 +6351,6 @@
 	)
 	(label "A4"
 		(at 218.44 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6370,7 +6361,6 @@
 	)
 	(label "A7"
 		(at 218.44 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6381,7 +6371,6 @@
 	)
 	(label "D5"
 		(at 173.99 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6392,7 +6381,6 @@
 	)
 	(label "A12"
 		(at 247.65 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6403,7 +6391,6 @@
 	)
 	(label "D3"
 		(at 250.19 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6414,7 +6401,6 @@
 	)
 	(label "D3"
 		(at 173.99 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6425,7 +6411,6 @@
 	)
 	(label "A4"
 		(at 149.86 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6436,7 +6421,6 @@
 	)
 	(label "A5"
 		(at 218.44 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6447,7 +6431,6 @@
 	)
 	(label "A9"
 		(at 218.44 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6458,7 +6441,6 @@
 	)
 	(label "A10"
 		(at 218.44 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6469,7 +6451,6 @@
 	)
 	(label "D2"
 		(at 250.19 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6480,7 +6461,6 @@
 	)
 	(label "A1"
 		(at 149.86 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6491,7 +6471,6 @@
 	)
 	(label "A15"
 		(at 247.65 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6502,7 +6481,6 @@
 	)
 	(label "D0"
 		(at 250.19 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6513,7 +6491,6 @@
 	)
 	(label "D0"
 		(at 149.86 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6524,7 +6501,6 @@
 	)
 	(label "A0"
 		(at 149.86 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6535,7 +6511,6 @@
 	)
 	(label "D6"
 		(at 250.19 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6546,7 +6521,6 @@
 	)
 	(label "D1"
 		(at 149.86 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6557,7 +6531,6 @@
 	)
 	(label "A11"
 		(at 218.44 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6568,7 +6541,6 @@
 	)
 	(label "D6"
 		(at 173.99 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6579,7 +6551,6 @@
 	)
 	(label "D1"
 		(at 250.19 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6590,7 +6561,6 @@
 	)
 	(label "A1"
 		(at 218.44 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6601,7 +6571,6 @@
 	)
 	(label "A6"
 		(at 218.44 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6612,7 +6581,6 @@
 	)
 	(label "A2"
 		(at 218.44 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6623,7 +6591,6 @@
 	)
 	(label "D5"
 		(at 250.19 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6634,7 +6601,6 @@
 	)
 	(label "A13"
 		(at 247.65 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6645,7 +6611,6 @@
 	)
 	(label "A14"
 		(at 247.65 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6656,7 +6621,6 @@
 	)
 	(label "D4"
 		(at 250.19 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6667,7 +6631,6 @@
 	)
 	(label "A2"
 		(at 149.86 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9579,7 +9542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1058_1x2032"
 			(at 187.706 34.29 90)
 			(effects
 				(font
@@ -9713,7 +9676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 212.09 144.018 90)
 			(effects
 				(font
@@ -10036,7 +9999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 178.562 149.86 90)
 			(effects
 				(font
@@ -10105,7 +10068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 189.992 149.86 90)
 			(effects
 				(font
@@ -10174,7 +10137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 202.692 149.86 90)
 			(effects
 				(font
@@ -10243,7 +10206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 271.4752 160.02 0)
 			(effects
 				(font
@@ -10312,7 +10275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 258.7752 160.02 0)
 			(effects
 				(font
