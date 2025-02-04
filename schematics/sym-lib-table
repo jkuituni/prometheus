@@ -1,5 +1,7 @@
 (sym_lib_table
-  (lib (name 65xx)(type Legacy)(uri ${KIPRJMOD}/65xx.lib)(options "")(descr ""))
-  (lib (name prometh_custom)(type Legacy)(uri ${KIPRJMOD}/prometh_custom.lib)(options "")(descr ""))
-  (lib (name simm16m)(type Legacy)(uri ${KIPRJMOD}/simm16m.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "65xx")(type "Legacy")(uri "${KIPRJMOD}/65xx.lib")(options "")(descr ""))
+  (lib (name "prometh_custom")(type "Legacy")(uri "${KIPRJMOD}/prometh_custom.lib")(options "")(descr ""))
+  (lib (name "simm16m")(type "Legacy")(uri "${KIPRJMOD}/simm16m.lib")(options "")(descr ""))
+  (lib (name "Prometheus-rescue")(type "KiCad")(uri "${KIPRJMOD}/Prometheus-rescue.kicad_sym")(options "")(descr ""))
 )
