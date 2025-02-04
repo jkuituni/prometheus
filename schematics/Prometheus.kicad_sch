@@ -3325,10 +3325,6 @@
 		(uuid "1554ec13-c78f-4268-aa35-3009eaf6e8be")
 	)
 	(no_connect
-		(at 205.74 125.73)
-		(uuid "16cd6152-1093-4c27-b835-5ad0286c86bb")
-	)
-	(no_connect
 		(at 222.25 41.91)
 		(uuid "232098dc-00c3-450f-9c28-6bd70b6fb1e1")
 	)
@@ -4907,6 +4903,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 125.73) (xy 209.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75670f12-28d9-4a0b-bb7f-cc037e1bc137")
+	)
+	(wire
+		(pts
 			(xy 248.92 160.02) (xy 257.81 160.02)
 		)
 		(stroke
@@ -5837,6 +5843,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 53.34) (xy 91.44 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c0bf45-bfd8-4b1d-8ead-309fe997413d")
+	)
+	(wire
+		(pts
 			(xy 190.5 123.19) (xy 190.5 124.46)
 		)
 		(stroke
@@ -6655,6 +6671,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-5V"
+		(shape input)
+		(at 88.9 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05637d45-07cf-4d1b-a24f-0d7da49d8ea9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.6985 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8699,6 +8737,28 @@
 			)
 		)
 	)
+	(global_label "-5V "
+		(shape output)
+		(at 209.55 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1876526-0257-47a6-9c85-81763c46c407")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.7191 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 57.15 120.65 0)
@@ -9098,6 +9158,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "-5V"
+		(shape output)
+		(at 91.44 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "173325c8-865f-4cac-912d-49f7ef79f259")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
