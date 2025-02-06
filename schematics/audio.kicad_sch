@@ -8860,7 +8860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 195.58 55.88 0)
 			(effects
 				(font
@@ -9983,7 +9983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 223.52 111.76 0)
 			(effects
 				(font
@@ -10333,7 +10333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 130.81 119.38 0)
 			(effects
 				(font
@@ -11109,7 +11109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 245.11 21.59 0)
 			(effects
 				(font
@@ -12014,7 +12014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 167.64 48.26 0)
 			(effects
 				(font
@@ -12659,7 +12659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 246.38 54.61 0)
 			(effects
 				(font
@@ -14757,7 +14757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 167.64 76.2 0)
 			(effects
 				(font
