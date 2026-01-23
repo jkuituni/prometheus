@@ -18,10 +18,12 @@ System specification:
   - Standard floppydrive interface
 * Other: 
   - DS1501 Realtime clock
-  - 8bit expansion port
+  - 2x 16bit expansion slot connectors
+  - 8bit expansion header
 
-The graphics is implemented with a additional FPGA board that connects via the two 40pin connectors. System controller 
-is a CPLD that ties in the system, It generates the chip selects, various control signals and contains a DRAM controller.
+The graphics is implemented with a custom video controller called "[GRaCE](https://github.com/jkuituni/GRaCE)" using an additional FPGA board that connects via the two 40pin connectors. 
+
+System controller is a CPLD that ties in the system, It generates the chip selects, various control signals and contains a DRAM controller.
 
 More accurate specifications regarding the memory layout, graphics capabilities and generic system description will be 
 added as they become available.
