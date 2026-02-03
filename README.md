@@ -6,7 +6,7 @@ System specification:
 
 * CPU: WDC 65816 at 8MHz
 * ROM: 8kB Firmware boot EPROM
-* RAM: Up to 16MB of RAM via 30pin SIMM
+* RAM: Up to 16MB of RAM via 4x 30pin SIMMs
 * Video: Custom graphics chip "GRACE"
 * Audio: Ensoniq EN5503 DOC
 * I/O: 
